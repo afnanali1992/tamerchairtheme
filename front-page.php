@@ -31,7 +31,7 @@
 				<div class="container">
 					<div class="main-wrapper pos-r">
 						<div class="banner-upper-heading wow fadeInDown animated">Digital Agency</div>
-						<h1 class="banner-main-title pt-15 pb-45 md-pb-20 wow fadeInUp animated" data-wow-delay="0.4s">Digital Agency <br> <span>& Solution.</span></h1>
+						<h1 class="banner-main-title pt-15 pb-45 md-pb-20 wow fadeInUp animated" data-wow-delay="0.4s">Tamer chair <br> <span>& Website.</span></h1>
 						<p class="banner-sub-title pb-45 wow fadeInUp animated" data-wow-delay="0.9s">Grow your business & boost up sale with rogan</p>
 						<a href="about-agency.html" class="theme-btn solid-button-one button-rose wow fadeInLeft animated" data-wow-delay="1.5s">Explore More</a>
 						<a data-fancybox href="https://www.youtube.com/embed/vVXAXDvgPiQ" class="fancybox video-button button-rose video-button-one wow fadeInRight animated" data-wow-delay="1.5s">See live demo. <i class="flaticon-play-button"></i></a>
