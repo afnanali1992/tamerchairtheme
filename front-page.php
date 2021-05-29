@@ -165,7 +165,7 @@
 						<div class="col-lg-5 mt-225 md-m0">
 							<div class="theme-title-one">
 								<div class="upper-title mb-5">Features</div>
-								<h2 class="main-title">Our Features & <i>Services.</i></h2>
+								<h2 class="main-title">Our Features & <i>Services 44.</i></h2>
 							</div> <!-- /.theme-title-one -->
 							<p class="pt-35 pb-55">Lorem ipsum dolor sit amet, omittan mel diva lorem animal iracu altera sinto cosi somthing will be here in short details. Ipsum dolor sit amet omittan</p>
 							<a href="service-v1.html" class="theme-btn solid-button-one button-rose" data-aos="fade-up">All Services</a>
