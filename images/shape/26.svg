@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="424px" height="529px" viewBox="0 0 424 529" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53 (72520) - https://sketchapp.com -->
+    <title>1BD1E199-C0E6-496F-9DE3-88DF7238171F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="91.6160164%" y1="100%" x2="48.2010496%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#D6F6D4" offset="0%"></stop>
+            <stop stop-color="#D7F6D5" offset="9.70130723%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_Index" transform="translate(0.000000, -3707.000000)" fill-rule="nonzero" stroke="url(#linearGradient-1)">
+            <g id="Services" transform="translate(-104.000000, 2904.000000)">
+                <g id="Line-Shape">
+                    <circle id="Oval" cx="263.5" cy="1067.5" r="263.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

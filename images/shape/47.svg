@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.656" height="16.687" viewBox="0 0 16.656 16.687">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #49ffda;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Path_6" data-name="Path 6" class="cls-1" d="M84.266,622.751l10.161,10.161a0.959,0.959,0,0,0,1.78-.552l2.239-12.028a1.278,1.278,0,0,0-1.6-1.6l-12.028,2.239A0.958,0.958,0,0,0,84.266,622.751Z" transform="translate(-82.813 -617.688)"/>
+</svg>

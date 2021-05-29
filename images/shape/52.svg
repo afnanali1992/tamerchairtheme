@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="870.844" height="924.28" viewBox="0 0 870.844 924.28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        opacity: 0.15;
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-290" y1="8197.592" x2="870.844" y2="8842.568" gradientUnits="userSpaceOnUse">
+      <stop offset="NaN" stop-color="#fad961"/>
+      <stop offset="Infinity" stop-color="#ffb286"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_72" data-name="Path 72" class="cls-1" d="M112.928,8631.5c196.541-50.16,265.426,93.96,448.092,153.55,90.175,29.41,266.6-27.89,301.125-183.72s-35.468-362.37-176.351-465.36-360.769-96.93-548.334-23.2-214.43,171.71-290.34,370.54-137.126,498.91-137.126,498.91S-83.613,8681.66,112.928,8631.5Z" transform="translate(0 -8057.94)"/>
+</svg>

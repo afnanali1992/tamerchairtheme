@@ -1,0 +1,18 @@
+<svg id="Hanging_Lamp" data-name="Hanging Lamp" xmlns="http://www.w3.org/2000/svg" width="74" height="159" viewBox="0 0 74 159">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #f3f8ff;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Light">
+    <path id="Hanging_Lamp_Light" data-name="Hanging Lamp Light" class="cls-1" d="M2518.23,264.842c0-10.029,14.23-18.158,31.77-18.158s31.77,8.129,31.77,18.158S2567.54,283,2550,283,2518.23,274.87,2518.23,264.842Z" transform="translate(-2513 -124)"/>
+    <path id="Hanging_Lamp-2" data-name="Hanging Lamp" class="cls-1" d="M2513,277.35c0-22.285,16.57-40.35,37-40.35s37,18.065,37,40.35" transform="translate(-2513 -124)"/>
+  </g>
+  <rect id="Wire" class="cls-2" x="35" width="5" height="136"/>
+</svg>

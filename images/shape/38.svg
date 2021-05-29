@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.312" height="12.32" viewBox="0 0 12.312 12.32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #50d1ff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2.328px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="_-e-Stroke_10" data-name="-e-Stroke 10" class="cls-1" d="M131,8035a5,5,0,1,1-5-5A5,5,0,0,1,131,8035Z" transform="translate(-119.844 -8028.84)"/>
+</svg>

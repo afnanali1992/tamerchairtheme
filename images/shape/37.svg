@@ -1,0 +1,21 @@
+<svg id="Line_Shape" data-name="Line Shape" xmlns="http://www.w3.org/2000/svg" width="595.28" height="224.91" viewBox="0 0 595.28 224.91">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        stroke: #d7f6d5;
+      }
+
+      .cls-2 {
+        stroke: #d2efd0;
+      }
+    </style>
+  </defs>
+  <path id="Path_36" data-name="Path 36" class="cls-1" d="M1618,6853c-85.5,58.5-111,224-225.5,224s-121-73-207-108-162.5,45-162.5,45" transform="translate(-1023 -6852.59)"/>
+  <path id="Path_37" data-name="Path 37" class="cls-2" d="M1434,6947c-40.21,54-94,0-94,0" transform="translate(-1023 -6852.59)"/>
+</svg>

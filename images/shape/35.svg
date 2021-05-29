@@ -1,0 +1,26 @@
+<svg id="Line_Shape" data-name="Line Shape" xmlns="http://www.w3.org/2000/svg" width="1426" height="811" viewBox="0 0 1426 811">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        stroke: #d6f6d4;
+      }
+
+      .cls-2 {
+        stroke: #d9eee6;
+      }
+
+      .cls-3 {
+        stroke: #daf0d9;
+      }
+    </style>
+  </defs>
+  <path id="Path_26" data-name="Path 26" class="cls-1" d="M2449,5847.22c-150.35,0-148.61,10-379.37-144.34s-283.41-12.99-294.91,16.99-22.99,82.46-33.98,135.93-23.5,177.41-124.46,211.39-257.92-64.46-385.87,27.49-8.5,326.33-129.96,335.33S949,6442,949,6442" transform="translate(-1023 -5631.5)"/>
+  <path id="Path_27" data-name="Path 27" class="cls-2" d="M1940,5721.25c-66.92-19.4-80,49.75-80,49.75" transform="translate(-1023 -5631.5)"/>
+  <path id="Path_34" data-name="Path 34" class="cls-3" d="M1630,5934c-14.58,65.45-93,51.57-93,51.57" transform="translate(-1023 -5631.5)"/>
+</svg>
