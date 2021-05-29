@@ -5,7 +5,7 @@
 							<div class="col-lg-3 col-sm-6 col-12 footer-about-widget">
 								<a href="index.html" class="logo"><img src="images/logo/logo.svg" alt=""></a>
 								<a href="#" class="email">rogan.inc@company.com</a>
-								<a href="#" class="phone">720.661.2231</a>
+								<a href="#" class="phone">720.661.2234</a>
 								
 							</div> <!-- /.about-widget -->
 							<div class="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list">
