@@ -364,47 +364,8 @@
 
 					<div class="order-lg-first">
 						<div class="slider-wrapper">
-							<div class="standard-testimonial-slider">
-								<div class="item">
-									<div class="customer-content">
-										<img src="images/logo/c-1.png" alt="">
-										<p class="pt-25 pb-30">Having a home based business is a wonderful assets to your life.Those problem still stands.</p>
-										<div class="d-flex align-items-center">
-											<img src="images/home/2.jpg" alt="" class="c-img">
-											<div>
-												<h6>Gerald Tucker</h6>
-												<span>Dhaka, BD</span>
-											</div>
-										</div>
-									</div> <!-- /.customer-content -->
-								</div>
-								<div class="item">
-									<div class="customer-content">
-										<img src="images/logo/c-2.png" alt="">
-										<p class="pt-25 pb-30">Having a home based business is a wonderful assets to your life.Those problem still stands.</p>
-										<div class="d-flex align-items-center">
-											<img src="images/home/3.jpg" alt="" class="c-img">
-											<div>
-												<h6>Rashed Ka.</h6>
-												<span>Dhaka, BD</span>
-											</div>
-										</div>
-									</div> <!-- /.customer-content -->
-								</div>
-								<div class="item">
-									<div class="customer-content">
-										<img src="images/logo/c-1.png" alt="">
-										<p class="pt-25 pb-30">Having a home based business is a wonderful assets to your life.Those problem still stands.</p>
-										<div class="d-flex align-items-center">
-											<img src="images/home/7.jpg" alt="" class="c-img">
-											<div>
-												<h6>Z. Hasan</h6>
-												<span>Dhaka, BD</span>
-											</div>
-										</div>
-									</div> <!-- /.customer-content -->
-								</div>
-							</div> <!-- /.standard-testimonial-slider -->
+						 <?php echo do_shortcode('[custom-twitter-feeds screenname="afnanali9" class="slider-wrapper"]'); ?>
+					 
 						</div> <!-- /.slider-wrapper -->
 					</div>
 				</div> <!-- /.main-container -->
