@@ -46,5 +46,5 @@
 				</div> <!-- /.slider-item-wrapper -->
 			</div> 
 			<!-- /.project-gallery-home-one -->
-
+<?php the_content();?>
 <?php get_footer();?>
