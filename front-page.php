@@ -7,7 +7,9 @@
 			-->
 			<div class="rogan-hero-section rogan-hero-three pt-300 pb-350 md-pt-200 md-pb-130 pos-r">
 				<div class="shape-wrapper">
-					<img src="images/home/8.jpg" alt="" class="main-image-shape img-shape wow fadeInRight animated" data-wow-duration="3s">
+
+
+					<img src="<?php bloginfo('template_directory')?>/images/home/Chair.jpg" alt="" class="main-image-shape img-shape wow fadeInRight animated" data-wow-duration="3s">
 					<div class="img-shape shape-one wow fadeInRight animated" data-wow-duration="2.3s"></div>
 					<div class="img-shape shape-two wow zoomIn animated" data-wow-duration="2.3s" data-wow-delay="2.2s"></div>
 					<div class="img-shape shape-three wow zoomIn animated" data-wow-duration="2.3s" data-wow-delay="2.2s"></div>
@@ -27,17 +29,54 @@
 						<path fill-rule="evenodd"  fill="rgb(181, 198, 255)"
 						 d="M6.000,12.000 C9.314,12.000 12.000,9.313 12.000,6.000 C12.000,2.686 9.314,-0.000 6.000,-0.000 C2.686,-0.000 -0.000,2.686 -0.000,6.000 C-0.000,9.313 2.686,12.000 6.000,12.000 Z"/>
 					</svg>
+					
 				</div> <!-- /.shape-wrapper -->
 				<div class="container">
 					<div class="main-wrapper pos-r">
-						<div class="banner-upper-heading wow fadeInDown animated">Digital Agency</div>
-						<h1 class="banner-main-title pt-15 pb-45 md-pb-20 wow fadeInUp animated" data-wow-delay="0.4s">Tamer chair <br> <span>& Website.</span></h1>
-						<p class="banner-sub-title pb-45 wow fadeInUp animated" data-wow-delay="0.9s">Grow your business & boost up sale with rogan</p>
+						<div class="banner-upper-heading wow fadeInDown animated">Welcome to,</div>
+						<h1 class="banner-main-title pt-15 pb-45 md-pb-20 wow fadeInUp animated" data-wow-delay="0.4s">Mohammed Saeed   <br> <span> Tamer Chair   </span></h1>
+						<p class="banner-sub-title pb-45 wow fadeInUp animated" data-wow-delay="0.9s">For Pharmaceutical Industries</p>
 						<a href="about-agency.html" class="theme-btn solid-button-one button-rose wow fadeInLeft animated" data-wow-delay="1.5s">Explore More</a>
-						<a data-fancybox href="https://www.youtube.com/embed/vVXAXDvgPiQ" class="fancybox video-button button-rose video-button-one wow fadeInRight animated" data-wow-delay="1.5s">See live demo. <i class="flaticon-play-button"></i></a>
+						<!-- <a data-fancybox href="https://www.youtube.com/embed/vVXAXDvgPiQ" class="fancybox video-button button-rose video-button-one wow fadeInRight animated" data-wow-delay="1.5s">See live demo. <i class="flaticon-play-button"></i></a> -->
 					</div> <!-- /.main-wrapper -->
 				</div> <!-- /.container -->
 			</div> <!-- /.rogan-hero-section -->
+
+			<!-- Slider Wrapper -->
+			<div class="project-gallery-home-one pos-r md-pt-20">
+			<div class="slider-item-wrapper">
+					<div class="home-gallery-slider">
+						<div class="item">
+							<div class="gallery-polar-state">
+								<div class="img-holder pos-r">
+									<img src="<?php bloginfo('template_directory')?>/images/home/3rd.png" alt="">
+									<a href="<?php bloginfo('template_directory')?>/images/home/3rd.png" class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
+								</div> <!-- /.img-holder -->
+							</div> <!-- /.gallery-polar-state -->
+						</div>
+						<div class="item">
+							<div class="gallery-polar-state">
+								<div class="img-holder pos-r">
+									<img src="<?php bloginfo('template_directory')?>/images/home/Building.png" alt="">
+									<a href="<?php bloginfo('template_directory')?>/images/home/Building.png" class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
+								</div> <!-- /.img-holder -->
+							</div> <!-- /.gallery-polar-state -->
+						</div>
+						<div class="item">
+							<div class="gallery-polar-state">
+								<div class="img-holder pos-r">
+									<img src="<?php bloginfo('template_directory')?>/images/home/Chair.jpg" alt="">
+									<a href="<?php bloginfo('template_directory')?>images/home/Chair.jpg" class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
+								</div> <!-- /.img-holder -->
+							</div> <!-- /.gallery-polar-state -->
+						</div>
+					</div>
+				</div> <!-- /. End Slider-item-wrapper -->
+				</div> <!-- /. End Slider Wrapper -->
+
+
+
+			   
 
 			
 			
@@ -91,16 +130,16 @@
 							<div class="col-lg-6 order-lg-last">
 								<div class="theme-title-one pt-70 md-p0">
 									<div class="upper-title mb-5">About us</div>
-									<h2 class="main-title">Great Digital Agency <i>Since 1980.</i></h2>
+									<h2 class="main-title">Mohamed Saeed <i>Tamer Chair </i></h2>
 								</div> <!-- /.theme-title-one -->
-								<div class="mark-text pt-25 pb-35">Creative & Proffesional Digital</div>
-								<p class="pb-60">We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers. We’ve expert team to solve your problems.</p>
-								<a href="about-agency.html" class="theme-btn solid-button-one button-rose" data-aos="fade-up">Explore More</a>
+								<div class="mark-text pt-25 pb-35">For pharmaceutical industries</div>
+								<p class="pb-60"> Aims to support the development of the drug industry and to conduct the necessary research in line with the goals of the Kingdom's Vision 2030 in the localization of strategic industries. This initiative is considered to enhance the development of drug research and medicinal products manufactured locally in the pharmaceutical industrial sector.</p>
+								<a href="about-agency.html" class="theme-btn solid-button-one button-rose" data-aos="fade-up">See More</a>
 							</div>
 							<div class="col-lg-6 order-lg-first">
 								<div class="main-img-box pos-r hide-pr md-mt-50">
-									<div class="img-one pos-r wow fadeInLeft" data-wow-duration="2s"><img src="images/home/9.jpg" alt=""></div>
-									<div class="img-two pos-r wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s"><img src="images/home/10.jpg" alt=""></div>
+									<div class="img-one pos-r wow fadeInLeft" data-wow-duration="2s"><img src="<?php bloginfo('template_directory')?>/images/home/home-3.jpeg" alt=""></div>
+									<div class="img-two pos-r wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s"  style="max-width:60%"><img src="<?php bloginfo('template_directory')?>/images/home/home-4.jpeg" alt=""></div>
 								</div>
 							</div>
 						</div>
@@ -112,7 +151,7 @@
 
 			<!-- 
 			=============================================
-				Our Core Feature
+				Our Accplochiment
 			============================================== 
 			-->
 			<div class="our-core-feature style-two pt-130 pb-300 md-pt-50 md-pb-150 pos-r">
@@ -164,34 +203,34 @@
 					<div class="row">
 						<div class="col-lg-5 mt-225 md-m0">
 							<div class="theme-title-one">
-								<div class="upper-title mb-5">Features</div>
-								<h2 class="main-title">Our Features & <i>Services 44.</i></h2>
+								<div class="upper-title mb-5">Accomplishments</div>
+								<h2 class="main-title">Our Accomplishments <i></i></h2>
 							</div> <!-- /.theme-title-one -->
-							<p class="pt-35 pb-55">Lorem ipsum dolor sit amet, omittan mel diva lorem animal iracu altera sinto cosi somthing will be here in short details. Ipsum dolor sit amet omittan</p>
-							<a href="service-v1.html" class="theme-btn solid-button-one button-rose" data-aos="fade-up">All Services</a>
+							<p class="pt-35 pb-55">The accomplishments for Mohamed Saeed Tamer Chair for pharmaceutical industries inculding publications,awards & achievements.</p>
+							<a href="service-v1.html" class="theme-btn solid-button-one button-rose" data-aos="fade-up">All Accomplishments</a>
 						</div> <!-- /.col -->
 						<div class="col-lg-7">
 							<div class="row feature-block-wrapper">
 								<div class="col-md-6">
 									<div class="feature-block-one main-p-color hover-state mb-40 mt-40">
 										<div class="icon icon-three flaticon-menu-2 tran3s"></div>
-										<h5 class="pt-30 pb-25 tran3s title">UI/UX Analysis.</h5>
-										<p class="tran3s">Lorem ipsum dolor amet, an dusino situ  sinto constituto, mir es pertin.</p>
+										<h5 class="pt-30 pb-25 tran3s title">Publications.</h5>
+										<p class="tran3s">The accomplishments for Mohamed Saeed Tamer Chair for pharmaceutical industries.</p>
 										<a href="#" class="read-more tran3s"><i class="flaticon-next-1"></i></a>
 									</div> <!-- /.feature-block-one -->
 									
 									<div class="feature-block-one main-p-color hover-state">
 										<div class="icon icon-three flaticon-login tran3s"></div>
-										<h5 class="pt-30 pb-25 tran3s title">Strong Security.</h5>
-										<p class="tran3s">Lorem ipsum dolor amet, an dusino situ  sinto constituto, mir es pertin.</p>
+										<h5 class="pt-30 pb-25 tran3s title">Achievements.</h5>
+										<p class="tran3s">The Achievements for Mohamed Saeed Tamer Chair for pharmaceutical industries.</p>
 										<a href="#" class="read-more tran3s"><i class="flaticon-next-1"></i></a>
 									</div> <!-- /.feature-block-one -->
 								</div> <!-- /.col- -->
 								<div class="col-md-6">
 									<div class="feature-block-one main-p-color hover-state mt-200 sm-mt-40">
 										<div class="icon icon-three flaticon-web tran3s"></div>
-										<h5 class="pt-30 pb-25 tran3s title">Creative Layout.</h5>
-										<p class="tran3s">Lorem ipsum dolor amet, an dusino situ  sinto constituto, mir es pertin.</p>
+										<h5 class="pt-30 pb-25 tran3s title">Awards.</h5>
+										<p class="tran3s">The Awards for Mohamed Saeed Tamer Chair for pharmaceutical industries.</p>
 										<a href="#" class="read-more tran3s"><i class="flaticon-next-1"></i></a>
 									</div> <!-- /.feature-block-one -->
 								</div> <!-- /.col- -->
@@ -204,51 +243,7 @@
 
 
 
-			<!--
-			=====================================================
-				Project Gallery
-			=====================================================
-			-->
-			<div class="project-gallery-home-one pos-r md-pt-20">
-				<div class="container">
-					<div class="d-md-flex align-items-center justify-content-between pos-r">
-						<div class="theme-title-one">
-							<div class="upper-title mb-5">Porject</div>
-							<h2 class="main-title">Project <i>Gallery.</i></h2>
-						</div> <!-- /.theme-title-one -->
-						<a href="portfolio-v1.html" class="theme-btn solid-button-one button-rose sm-mt-40">View Gallery</a>
-					</div>
-				</div> <!-- /.container -->
-
-				<div class="slider-item-wrapper">
-					<div class="home-gallery-slider">
-						<div class="item">
-							<div class="gallery-polar-state">
-								<div class="img-holder pos-r">
-									<img src="images/gallery/img1.jpg" alt="">
-									<a href="images/gallery/img1.jpg" class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
-								</div> <!-- /.img-holder -->
-							</div> <!-- /.gallery-polar-state -->
-						</div>
-						<div class="item">
-							<div class="gallery-polar-state">
-								<div class="img-holder pos-r">
-									<img src="images/gallery/img2.jpg" alt="">
-									<a href="images/gallery/img2.jpg" class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
-								</div> <!-- /.img-holder -->
-							</div> <!-- /.gallery-polar-state -->
-						</div>
-						<div class="item">
-							<div class="gallery-polar-state">
-								<div class="img-holder pos-r">
-									<img src="images/gallery/img3.jpg" alt="">
-									<a href="images/gallery/img3.jpg" class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
-								</div> <!-- /.img-holder -->
-							</div> <!-- /.gallery-polar-state -->
-						</div>
-					</div>
-				</div> <!-- /.slider-item-wrapper -->
-			</div> <!-- /.project-gallery-home-one -->
+	
 
 
 
@@ -280,35 +275,25 @@
 					<div class="row">
 						<div class="col-lg-5 col-md-6 col-12 pt-120 sm-pt-60 sm-pb-40">
 							<div class="theme-title-one">
-								<div class="upper-title mb-5">Pricing Plan</div>
-								<h2 class="main-title">Choose Pricing <br><i>Plan.</i></h2>
+								<div class="upper-title mb-5">The Chair's Supervisor</div>
+								<h2 class="main-title">Dr. Nabil A.<br><i>Al-Hakami.</i></h2>
 							</div> <!-- /.theme-title-one -->
-							<p class="pt-20 pb-70">We have different type of pricing table to choose with your need with reasonable price.</p>
-							<ul class="nav nav-tabs">
-								<li><a data-toggle="tab" href="#monthly" class="active">Monthly</a></li>
-								<li><a data-toggle="tab" href="#yearly">Yearly</a></li>
-							</ul>
+							<p class="pt-20 pb-70">Health Affairs Adviser at the Ministry of Education and Associate Professor of Industrial Pharmacy and Head of the Pharmaceutics Department, faculty of Pharmacy and Director of the Research Center of Excellence for Drug Research and Pharmaceutical Industries, King Abdul-Aziz University.</p>
+							<a href="service-v1.html" class="theme-btn solid-button-one button-rose" data-aos="fade-up">Our Staff</a>
 						</div> <!-- /.col- -->
 						<div class="col-lg-6 col-md-6 col-12 ml-auto">
 							<div class="tab-content pos-r" data-aos="fade-left" data-aos-duration="2000">
 								<div class="table-content">
 									<div id="monthly" class="tab-pane price-table in active">
 								    	<div class="col-inner">
-				                           	<h6>Subway</h6>
-				                            <div class="price pt-25 pb-35">$89.<sup>99</sup></div>
-				                            <div class="tag">Quick job, Small Work</div>
-				                            <ul class="pt-20 pb-40">
-				                               	<li>50GB Bandwidth</li>
-				                                <li>Business &amp; Financ Analysing</li>
-				                                <li>24 hour support</li>
-				                                <li>Customer Managemet</li>
-				                            </ul>
-				                            <a href="#" class="theme-btn line-button-two"><span></span> Choose Plan</a>
+										<img src="<?php bloginfo('template_directory')?>/images/home/nabil.png" alt="">
+				                           
+				                           
 				                        </div>
 									</div> <!-- /#monthly -->
 								  	<div id="yearly" class="tab-pane price-table">
-								    	<div class="col-inner">
-				                           	<h6>Subway</h6>
+								    	<div class="col-inner" style="height:555px; background:">
+				                           	<!-- <h6>Subway</h6>
 				                            <div class="price pt-25 pb-35">$259.<sup>99</sup></div>
 				                            <div class="tag">Quick job, Small Work</div>
 				                            <ul class="pt-20 pb-40">
@@ -316,8 +301,8 @@
 				                                <li>Business &amp; Financ Analysing</li>
 				                                <li>24 hour support</li>
 				                                <li>Customer Managemet</li>
-				                            </ul>
-				                            <a href="#" class="theme-btn line-button-two"><span></span> Choose Plan</a>
+				                            </ul> -->
+											<!-- <img src="<?php bloginfo('template_directory')?>/images/home/nabil.png" alt=""> -->
 				                        </div>
 								  	</div> <!-- /#yearly -->
 								</div> <!-- /.table-content -->
@@ -371,8 +356,9 @@
 				<div class="main-container d-xl-flex align-items-center">
 					<div class="order-lg-last">
 						<div class="theme-title-one">
-							<div class="upper-title mb-5">Testimonials</div>
-							<h2 class="main-title">Our Customers <br><i>Feedback.</i></h2>
+							<div class="upper-title mb-5">NEWS</div>
+							<h2 class="main-title">Our NEWS <br><i> In Twitter.</i></h2>
+							<p class="tran3s">The NEWS for Mohamed Saeed Tamer Chair for pharmaceutical industries.</p>
 						</div> <!-- /.theme-title-one -->
 					</div>
 
@@ -426,62 +412,7 @@
 
 
 
-			<!--
-			=====================================================
-				Partner Section
-			=====================================================
-			-->
-			<div class="op-partner-section-one pt-80 pb-110">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-6">
-							<div class="img-box bx-a">
-								<a href="#"><img src="images/logo/p-1.png" alt=""></a>
-							</div> <!-- /.img-box -->
-						</div>
-						<div class="col-lg-2 col-md-4 col-6">
-							<div class="img-box bx-b">
-								<a href="#"><img src="images/logo/p-2.png" alt=""></a>
-							</div> <!-- /.img-box -->
-						</div>
-						<div class="col-lg-3 col-md-4 col-6">
-							<div class="img-box bx-c">
-								<a href="#"><img src="images/logo/p-3.png" alt=""></a>
-							</div> <!-- /.img-box -->
-						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-6">
-							<div class="img-box bx-d">
-								<a href="#"><img src="images/logo/p-4.png" alt=""></a>
-							</div> <!-- /.img-box -->
-						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-6">
-							<div class="img-box bx-e">
-								<a href="#"><img src="images/logo/p-5.png" alt=""></a>
-							</div> <!-- /.img-box -->
-						</div>
-						<div class="col-xl-4 col-lg-2 col-md-4 col-6">
-							<div class="img-box bx-f">
-								<a href="#"><img src="images/logo/p-6.png" alt=""></a>
-							</div> <!-- /.img-box -->
-						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-6">
-							<div class="img-box bx-g">
-								<a href="#"><img src="images/logo/p-7.png" alt=""></a>
-							</div> <!-- /.img-box -->
-						</div>
-						<div class="col-xl-3 col-lg-3 col-md-4 col-6">
-							<div class="img-box bx-h">
-								<a href="#"><img src="images/logo/p-8.png" alt=""></a>
-							</div> <!-- /.img-box -->
-						</div>
-						<div class="col-xl-3 col-lg-11 col-md-4 col-6">
-							<div class="img-box bx-i">
-								<a href="#"><img src="images/logo/p-9.png" alt=""></a>
-							</div> <!-- /.img-box -->
-						</div>
-					</div>
-				</div>
-			</div> <!-- /.op-partner-section-one -->
+		
 
 
 
@@ -534,8 +465,8 @@
 									<div class="upper-title mb-5">Contact us</div>
 									<h2 class="main-title">Don’t Hesitate to Contact us for any <br><i>Information.</i></h2>
 								</div> <!-- /.theme-title-one -->
-								<p>Call us for immidiate support to this number</p>
-								<a href="#" class="call-to-dial">880 1723 801 29</a>
+								<p>Please complete the form below. We will respond as soon as possible, usually within a few business days.</p>
+								<!-- <a href="#" class="call-to-dial">880 1723 801 29</a> -->
 							</div> <!-- /.contact-text -->
 						</div> <!-- /.col- -->
 						<div class="col-xl-6 col-lg-6 ml-auto">
@@ -559,28 +490,5 @@
 				Newsletter Section
 			============================================== 
 			-->
-			<div class="newsletter-section newsletter-two pos-r mt-190 md-mt-150">
-				<div class="shape-wrapper">
-					<svg class="img-shape shape-one">
-						<path fill-rule="evenodd"  fill="rgb(255, 205, 111)"
-						 d="M8.000,15.999 C12.418,15.999 16.000,12.417 16.000,7.999 C16.000,3.581 12.418,-0.001 8.000,-0.001 C3.582,-0.001 -0.000,3.581 -0.000,7.999 C-0.000,12.417 3.582,15.999 8.000,15.999 Z"/>
-					</svg>
-					<svg class="img-shape shape-two">
-						<path fill-rule="evenodd"  fill="rgb(206, 124, 255)"
-						 d="M5.500,10.999 C8.537,10.999 11.000,8.537 11.000,5.499 C11.000,2.462 8.537,-0.001 5.500,-0.001 C2.462,-0.001 -0.000,2.462 -0.000,5.499 C-0.000,8.537 2.462,10.999 5.500,10.999 Z"/>
-					</svg>
-				</div>
-				<div class="container">
-					<div class="main-wrapper">
-						<div class="theme-title-one text-center pb-55">
-							<h2 class="main-title">Subscribe Newslatter & get<br> <i>Company News.</i></h2>
-						</div> <!-- /.theme-title-one -->
-						<form class="ajax-sub-form" method="post">
-							<input type="email" placeholder="Enter your email" id="subscription-email">
-							<button  class="button-rose"><i class="flaticon-next"></i></button>
-					        <label class="subscription-label" for="subscription-email"></label>
-						</form>
-					</div> <!-- /.main-wrapper -->
-				</div> <!-- /.container -->
-			</div> <!-- /.newsletter-section -->
+	
 <?php get_footer();?>

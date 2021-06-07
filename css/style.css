@@ -141,9 +141,9 @@
   --text-light:#c0c0c9;
   --text-dark: #313131;
   --heading :#2A2A2A;
-  --p-rose: #ff5284;
-  --rose-gr-bg: linear-gradient( -90deg, rgb(255,182,139) 0%, rgb(255,96,139) 100%);
-  --rose-gr-reverse: linear-gradient( -90deg, rgb(255,96,139) 0%, rgb(255,182,139) 100%);
+  --p-rose: #d09d49;
+  --rose-gr-bg: linear-gradient( -90deg, rgb(226,213,193) 0%, rgb(208,157,73) 100%);
+  --rose-gr-reverse: linear-gradient( -90deg, rgb(208,157,73) 0%, rgb(226,213,193) 100%);
   --p-green: #0de49d;
   --p-orange:#ff8618;
   --cyan: #1aceff;

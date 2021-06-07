@@ -73,9 +73,24 @@
 			-->
             <header>
 			<div class="theme-main-menu theme-menu-two main-p-color sticky-menu">
-				<div class="d-flex align-items-center">
+         
+			<div class="d-flex  logo-header row align-items-top justify-content-between">
 				<!-- LOGO -->
-					<div class="logo"><a href="index.html"><img src="images/logo/logo.svg" alt=""></a></div>
+				<div class="logo lg-3"><a href="index.html"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-3.png" alt=""></a></div>
+					<div class="logo lg-3"><a href="index.html"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-1.png" alt=""></a></div>
+					
+					<div class="logo lg-3"><a href="index.html"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-2.png" alt=""></a></div>
+					<!-- <div class="right-content ml-auto order-lg-3">
+						<a href="contact-v1.html" class="theme-btn line-button-one button-rose contact-button button-white-bg">Contact us</a>
+					</div> -->
+		 
+			</div>
+
+     
+           
+				<div class="d-flex align-items-center ">
+				<!-- LOGO -->
+					<!-- <div class="logo"><a href="index.html"><img src="<?php bloginfo('template_directory')?>/images/logo/logo.svg" alt=""></a></div> -->
 					<div class="right-content ml-auto order-lg-3">
 						<a href="contact-v1.html" class="theme-btn line-button-one button-rose contact-button button-white-bg">Contact us</a>
 					</div>
@@ -117,7 +132,9 @@
 						   </div>
 						</div> 
 					</nav> 
+		 
 				</div>
+		 
 			</div> <!-- /.theme-main-menu -->
 
             </header>
