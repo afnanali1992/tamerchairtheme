@@ -17,9 +17,9 @@
 		<meta name="msapplication-navbutton-color" content="#fff">
 		<!-- iOS Safari -->
 		<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
-		<title>Rogan - Business and Agency html Template</title>
+		<title>Tamer Chair For Pharmaceutical Industries </title>
 		<!-- Favicon -->
-		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+		<link rel="icon" type="image/png" sizes="56x56" href="<?php bloginfo('template_directory')?>/images/fav-icon/chair-icon.png">
 
 		<?php wp_head(); ?>
 

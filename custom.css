@@ -41,4 +41,16 @@
     .ctf-carousel .ctf-owl-dots{
     display:none;
     }
+
+
+    @media (max-width: 575px) {
+
+        /* // Align text to center. */
+        .text-xs-center {
+          text-align: center;
+        } 
+        .xs-hide{
+            display: none;
+        }
+      }
     
