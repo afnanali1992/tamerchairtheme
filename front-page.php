@@ -5,11 +5,11 @@
 				Theme Main Banner One
 			============================================== 
 			-->
-			<div class="rogan-hero-section rogan-hero-three pt-300 pb-350 md-pt-200 md-pb-130 pos-r">
+			<div class="rogan-hero-section rogan-hero-three pt-300 pb-170 md-pt-200 md-pb-90 pos-r">
 				<div class="shape-wrapper">
 
 
-					<img src="<?php bloginfo('template_directory')?>/images/home/Chair.jpg" alt="" class="main-image-shape img-shape wow fadeInRight animated" data-wow-duration="3s">
+					<img src="<?php bloginfo('template_directory')?>/images/home/Chair.png" alt="" class="main-image-shape img-shape wow fadeInRight animated" data-wow-duration="3s">
 					<div class="img-shape shape-one wow fadeInRight animated" data-wow-duration="2.3s"></div>
 					<div class="img-shape shape-two wow zoomIn animated" data-wow-duration="2.3s" data-wow-delay="2.2s"></div>
 					<div class="img-shape shape-three wow zoomIn animated" data-wow-duration="2.3s" data-wow-delay="2.2s"></div>
@@ -18,7 +18,7 @@
 						 d="M6.000,12.000 C9.314,12.000 12.000,9.313 12.000,6.000 C12.000,2.686 9.314,-0.000 6.000,-0.000 C2.686,-0.000 -0.000,2.686 -0.000,6.000 C-0.000,9.313 2.686,12.000 6.000,12.000 Z"/>
 					</svg>
 					<svg class="img-shape shape-five">
-						<path fill-rule="evenodd"  fill="rgb(171, 247, 242)"
+						<path fill-rule="evenodd"  fill="rgb(244, 235, 205)"
 						 d="M12.500,25.000 C19.404,25.000 25.000,19.403 25.000,12.500 C25.000,5.596 19.404,-0.000 12.500,-0.000 C5.596,-0.000 -0.000,5.596 -0.000,12.500 C-0.000,19.403 5.596,25.000 12.500,25.000 Z"/>
 					</svg>
 					<svg class="img-shape shape-six">
@@ -26,7 +26,7 @@
 						 d="M7.500,15.000 C11.642,15.000 15.000,11.642 15.000,7.500 C15.000,3.358 11.642,-0.000 7.500,-0.000 C3.358,-0.000 -0.000,3.358 -0.000,7.500 C-0.000,11.642 3.358,15.000 7.500,15.000 Z"/>
 					</svg>
 					<svg class="img-shape shape-seven">
-						<path fill-rule="evenodd"  fill="rgb(181, 198, 255)"
+						<path fill-rule="evenodd"  fill="rgb(201, 192, 172)"
 						 d="M6.000,12.000 C9.314,12.000 12.000,9.313 12.000,6.000 C12.000,2.686 9.314,-0.000 6.000,-0.000 C2.686,-0.000 -0.000,2.686 -0.000,6.000 C-0.000,9.313 2.686,12.000 6.000,12.000 Z"/>
 					</svg>
 					
@@ -42,15 +42,25 @@
 				</div> <!-- /.container -->
 			</div> <!-- /.rogan-hero-section -->
 
+
+             			<!--
+			=====================================================
+				Project Gallery
+			=====================================================
+			-->
+	 
+
 			<!-- Slider Wrapper -->
 			<div class="project-gallery-home-one pos-r md-pt-20">
-			<div class="slider-item-wrapper">
+			
+				<div class="slider-item-wrapper">
 					<div class="home-gallery-slider">
 						<div class="item">
 							<div class="gallery-polar-state">
 								<div class="img-holder pos-r">
 									<img src="<?php bloginfo('template_directory')?>/images/home/3rd.png" alt="">
-									<a href="<?php bloginfo('template_directory')?>/images/home/3rd.png" class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
+									<a href="<?php bloginfo('template_directory')?>/images/home/3rd.png"
+										class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
 								</div> <!-- /.img-holder -->
 							</div> <!-- /.gallery-polar-state -->
 						</div>
@@ -58,7 +68,35 @@
 							<div class="gallery-polar-state">
 								<div class="img-holder pos-r">
 									<img src="<?php bloginfo('template_directory')?>/images/home/Building.png" alt="">
-									<a href="<?php bloginfo('template_directory')?>/images/home/Building.png" class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
+									<a href="<?php bloginfo('template_directory')?>/images/home/Building.png"
+										class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
+								</div> <!-- /.img-holder -->
+							</div> <!-- /.gallery-polar-state -->
+						</div>
+						<div class="item">
+							<div class="gallery-polar-state">
+								<div class="img-holder pos-r">
+									<img src="<?php bloginfo('template_directory')?>/images/home/MST.png" alt="">
+									<a href="<?php bloginfo('template_directory')?>images/home/MST.png"
+										class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
+								</div> <!-- /.img-holder -->
+							</div> <!-- /.gallery-polar-state -->
+						</div>
+						<div class="item">
+							<div class="gallery-polar-state">
+								<div class="img-holder pos-r">
+									<img src="<?php bloginfo('template_directory')?>/images/home/SAJA.png" alt="">
+									<a href="<?php bloginfo('template_directory')?>images/home/SAJA.png"
+										class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
+								</div> <!-- /.img-holder -->
+							</div> <!-- /.gallery-polar-state -->
+						</div>
+						<div class="item">
+							<div class="gallery-polar-state">
+								<div class="img-holder pos-r">
+									<img src="<?php bloginfo('template_directory')?>/images/home/HCHQ.png" alt="">
+									<a href="<?php bloginfo('template_directory')?>images/home/HCHQ.png"
+										class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
 								</div> <!-- /.img-holder -->
 							</div> <!-- /.gallery-polar-state -->
 						</div>
@@ -66,13 +104,14 @@
 							<div class="gallery-polar-state">
 								<div class="img-holder pos-r">
 									<img src="<?php bloginfo('template_directory')?>/images/home/Chair.jpg" alt="">
-									<a href="<?php bloginfo('template_directory')?>images/home/Chair.jpg" class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
+									<a href="<?php bloginfo('template_directory')?>images/home/HCHQ.png"
+										class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
 								</div> <!-- /.img-holder -->
 							</div> <!-- /.gallery-polar-state -->
 						</div>
 					</div>
 				</div> <!-- /. End Slider-item-wrapper -->
-				</div> <!-- /. End Slider Wrapper -->
+			</div> <!-- /. End Slider Wrapper -->
 
 
 
@@ -92,8 +131,8 @@
 					<svg class="img-shape shape-one" data-aos="fade-right" data-aos-duration="3000">
 						<defs>
 						<linearGradient id="PSgrad_11" x1="0%" x2="42.262%" y1="0%" y2="90.631%">
-						  <stop offset="0%" stop-color="rgb(250,110,185)" stop-opacity="1" />
-						  <stop offset="100%" stop-color="rgb(255,207,170)" stop-opacity="1" />
+						  <stop offset="0%" stop-color="rgb(244, 235, 205)" stop-opacity="1" />
+						  <stop offset="100%" stop-color="rgb(218, 194, 108)" stop-opacity="1" />
 						</linearGradient>
 						</defs>
 						<path fill-rule="evenodd"  opacity="0.247" fill="url(#PSgrad_11)"
@@ -103,8 +142,8 @@
 					<svg class="img-shape shape-two" data-aos="fade-right" data-aos-duration="3000">
 						<defs>
 						<linearGradient id="PSgrad_22" x1="0%" x2="42.262%" y1="0%" y2="90.631%">
-						  <stop offset="0%" stop-color="rgb(250,110,185)" stop-opacity="1" />
-						  <stop offset="100%" stop-color="rgb(255,207,170)" stop-opacity="1" />
+						  <stop offset="0%" stop-color="rgb(244, 235, 205)" stop-opacity="1" />
+						  <stop offset="100%" stop-color="rgb(218, 194, 108)" stop-opacity="1" />
 						</linearGradient>
 
 						</defs>
@@ -112,11 +151,11 @@
 						 d="M481.000,961.999 C746.649,961.999 962.000,746.649 962.000,481.000 C962.000,215.351 746.649,-0.000 481.000,-0.000 C215.351,-0.000 -0.000,215.351 -0.000,481.000 C-0.000,746.649 215.351,961.999 481.000,961.999 Z"/>
 					</svg>
 					<svg class="img-shape shape-three">
-						<path fill-rule="evenodd"  fill="rgb(255, 234, 208)"
+						<path fill-rule="evenodd"  fill="rgb(184, 177, 162)"
 						 d="M10.000,20.000 C15.523,20.000 20.000,15.523 20.000,10.000 C20.000,4.477 15.523,-0.001 10.000,-0.001 C4.477,-0.001 -0.000,4.477 -0.000,10.000 C-0.000,15.523 4.477,20.000 10.000,20.000 Z"/>
 					</svg>
 					<svg class="img-shape shape-four">
-						<path fill-rule="evenodd"  opacity="0.451" fill="rgb(255, 126, 190)"
+						<path fill-rule="evenodd"  opacity="0.451" fill="rgb(218, 194, 108)"
 						 d="M10.000,20.000 C15.523,20.000 20.000,15.522 20.000,10.000 C20.000,4.477 15.523,-0.000 10.000,-0.000 C4.477,-0.000 -0.000,4.477 -0.000,10.000 C-0.000,15.522 4.477,20.000 10.000,20.000 Z"/>
 					</svg>
 					<svg class="img-shape shape-five">
@@ -159,8 +198,8 @@
 					<svg class="img-shape shape-one" data-aos="fade-left" data-aos-duration="3000">
 						<defs>
 						<linearGradient id="PSgrad_srf" x1="0%" x2="42.699%" y1="0%" y2="90.425%">
-						  <stop offset="0%" stop-color="rgb(0,238,191)" stop-opacity="1" />
-						  <stop offset="100%" stop-color="rgb(204,255,133)" stop-opacity="1" />
+						  <stop offset="0%" stop-color="rgb(224, 133, 133)" stop-opacity="1" />
+						  <stop offset="100%" stop-color="rgb(229, 135, 124)" stop-opacity="1" />
 						</linearGradient>
 
 						</defs>
@@ -170,8 +209,8 @@
 					<svg  class="img-shape shape-two" data-aos="fade-left" data-aos-duration="3000">
 						<defs>
 						<linearGradient id="PSgrad_jhr" x1="0%" x2="43.837%" y1="0%" y2="89.879%">
-						  <stop offset="0%" stop-color="rgb(0,238,191)" stop-opacity="1" />
-						  <stop offset="100%" stop-color="rgb(204,255,133)" stop-opacity="1" />
+						  <stop offset="0%" stop-color="rgb(224, 133, 133)" stop-opacity="1" />
+						  <stop offset="100%" stop-color="rgb(229, 135, 124)" stop-opacity="1" />
 						</linearGradient>
 
 						</defs>
@@ -179,23 +218,23 @@
 						 d="M533.500,1067.000 C828.144,1067.000 1067.000,828.143 1067.000,533.499 C1067.000,238.855 828.144,-0.000 533.500,-0.000 C238.856,-0.000 -0.000,238.855 -0.000,533.499 C-0.000,828.143 238.856,1067.000 533.500,1067.000 Z"/>
 					</svg>
 					<svg  class="img-shape shape-three">
-						<path fill-rule="evenodd"  fill="rgb(165, 197, 255)"
+						<path fill-rule="evenodd"  fill="rgb(224, 133, 133)"
 						 d="M10.000,20.000 C15.523,20.000 20.000,15.522 20.000,10.000 C20.000,4.477 15.523,-0.001 10.000,-0.001 C4.477,-0.001 -0.000,4.477 -0.000,10.000 C-0.000,15.522 4.477,20.000 10.000,20.000 Z"/>
 					</svg>
 					<svg  class="img-shape shape-four">
-						<path fill-rule="evenodd"  fill="rgb(255, 212, 114)"
+						<path fill-rule="evenodd"  fill="rgb(184, 177, 162)"
 						 d="M5.000,9.999 C7.761,9.999 10.000,7.761 10.000,5.000 C10.000,2.238 7.761,-0.000 5.000,-0.000 C2.239,-0.000 -0.000,2.238 -0.000,5.000 C-0.000,7.761 2.239,9.999 5.000,9.999 Z"/>
 					</svg>
 					<svg  class="img-shape shape-five">
-						<path fill-rule="evenodd"  fill="rgb(167, 185, 255)"
+						<path fill-rule="evenodd"  fill="rgb(244, 235, 205)"
 						 d="M5.000,9.999 C7.761,9.999 10.000,7.761 10.000,5.000 C10.000,2.238 7.761,-0.001 5.000,-0.001 C2.239,-0.001 -0.000,2.238 -0.000,5.000 C-0.000,7.761 2.239,9.999 5.000,9.999 Z"/>
 					</svg>
 					<svg  class="img-shape shape-six">
-						<path fill-rule="evenodd"  fill="rgb(133, 255, 212)"
+						<path fill-rule="evenodd"  fill="rgb(229, 135, 124)"
 						 d="M10.000,19.999 C15.523,19.999 20.000,15.522 20.000,10.000 C20.000,4.477 15.523,-0.000 10.000,-0.000 C4.477,-0.000 -0.000,4.477 -0.000,10.000 C-0.000,15.522 4.477,19.999 10.000,19.999 Z"/>
 					</svg>
 					<svg  class="img-shape shape-seven">
-						<path fill-rule="evenodd"  fill="rgb(255, 196, 133)"
+						<path fill-rule="evenodd"  fill="rgb(218, 194, 108)"
 						 d="M5.000,10.000 C7.761,10.000 10.000,7.761 10.000,4.999 C10.000,2.238 7.761,-0.000 5.000,-0.000 C2.238,-0.000 -0.000,2.238 -0.000,4.999 C-0.000,7.761 2.238,10.000 5.000,10.000 Z"/>
 					</svg>
 				</div> <!-- /.shape-wrapper -->
@@ -255,19 +294,19 @@
 			<div class="pricing-plan-classic pt-180 pb-200 md-pt-90 md-pb-100 pos-r">
 				<div class="shape-wrapper">
 					<svg class="img-shape shape-one">
-						<path fill-rule="evenodd"  fill="rgb(255, 173, 232)"
+						<path fill-rule="evenodd"  fill="rgb(201, 192, 172)"
 						 d="M7.500,15.000 C11.642,15.000 15.000,11.641 15.000,7.499 C15.000,3.357 11.642,-0.000 7.500,-0.000 C3.358,-0.000 -0.000,3.357 -0.000,7.499 C-0.000,11.641 3.358,15.000 7.500,15.000 Z"/>
 					</svg>
 					<svg class="img-shape shape-two">
-						<path fill-rule="evenodd"  fill="rgb(181, 185, 255)"
+						<path fill-rule="evenodd"  fill="rgb(244, 235, 205)"
 						 d="M6.000,12.000 C9.314,12.000 12.000,9.313 12.000,6.000 C12.000,2.686 9.314,-0.000 6.000,-0.000 C2.686,-0.000 -0.000,2.686 -0.000,6.000 C-0.000,9.313 2.686,12.000 6.000,12.000 Z"/>
 					</svg>
 					<svg class="img-shape shape-three">
-						<path fill-rule="evenodd"  fill="rgb(164, 206, 255)"
+						<path fill-rule="evenodd"  fill="rgb(224, 133, 133)"
 						 d="M4.000,8.000 C6.209,8.000 8.000,6.208 8.000,3.999 C8.000,1.790 6.209,-0.001 4.000,-0.001 C1.791,-0.001 -0.000,1.790 -0.000,3.999 C-0.000,6.208 1.791,8.000 4.000,8.000 Z"/>
 					</svg>
 					<svg class="img-shape shape-four">
-						<path fill-rule="evenodd"  fill="rgb(255, 214, 160)"
+						<path fill-rule="evenodd"  fill="rgb(237, 222, 171)"
 						 d="M10.000,19.999 C15.523,19.999 20.000,15.522 20.000,10.000 C20.000,4.476 15.523,-0.000 10.000,-0.000 C4.477,-0.000 -0.000,4.476 -0.000,10.000 C-0.000,15.522 4.477,19.999 10.000,19.999 Z"/>
 						</svg>
 				</div> <!-- /.shape-wrapper -->
@@ -324,8 +363,8 @@
 					<svg class="img-shape shape-one" data-aos="fade-right" data-aos-duration="3000">
 						<defs>
 						<linearGradient id="PSgrad_914g" x1="0%" x2="0%" y1="0%" y2="100%">
-						  <stop offset="0%" stop-color="rgb(250,217,97)" stop-opacity="1" />
-						  <stop offset="100%" stop-color="rgb(255,142,78)" stop-opacity="1" />
+						  <stop offset="0%" stop-color="rgb(184, 177, 162)" stop-opacity="1" />
+						  <stop offset="100%" stop-color="rgb(199, 185, 144)" stop-opacity="1" />
 						</linearGradient>
 
 						</defs>
@@ -336,8 +375,8 @@
 					<svg class="img-shape shape-two" data-aos="fade-right" data-aos-duration="3000">
 						<defs>
 						<linearGradient id="PSgrad_xcty" x1="0%" x2="0%" y1="0%" y2="100%">
-						  <stop offset="0%" stop-color="rgb(250,217,97)" stop-opacity="1" />
-						  <stop offset="100%" stop-color="rgb(255,142,78)" stop-opacity="1" />
+						  <stop offset="0%" stop-color="rgb(184, 177, 162)" stop-opacity="1" />
+						  <stop offset="100%" stop-color="rgb(199, 185, 144)" stop-opacity="1" />
 						</linearGradient>
 
 						</defs>
@@ -345,11 +384,11 @@
 						 d="M425.500,850.999 C660.497,850.999 851.000,660.497 851.000,425.500 C851.000,190.502 660.497,-0.000 425.500,-0.000 C190.503,-0.000 -0.000,190.502 -0.000,425.500 C-0.000,660.497 190.503,850.999 425.500,850.999 Z"/>
 					</svg>
 					<svg class="img-shape shape-three">
-						<path fill-rule="evenodd"  fill="rgb(92, 230, 187)"
+						<path fill-rule="evenodd"  fill="rgb(224, 133, 133)"
 						 d="M4.500,9.000 C6.985,9.000 9.000,6.985 9.000,4.499 C9.000,2.014 6.985,-0.000 4.500,-0.000 C2.015,-0.000 -0.000,2.014 -0.000,4.499 C-0.000,6.985 2.015,9.000 4.500,9.000 Z"/>
 					</svg>
 					<svg class="img-shape shape-four">
-						<path fill-rule="evenodd"  fill="rgb(56, 248, 189)"
+						<path fill-rule="evenodd"  fill="rgb(218, 194, 108)"
 						 d="M10.000,19.999 C15.523,19.999 20.000,15.522 20.000,9.999 C20.000,4.476 15.523,-0.000 10.000,-0.000 C4.477,-0.000 -0.000,4.476 -0.000,9.999 C-0.000,15.522 4.477,19.999 10.000,19.999 Z"/>
 					</svg>
 				</div>
@@ -387,8 +426,8 @@
 					<svg class="img-shape shape-one" data-aos="fade-left" data-aos-duration="3000">
 						<defs>
 						<linearGradient id="PSgrad_uyto" x1="42.262%" x2="0%" y1="90.631%" y2="0%">
-						  <stop offset="0%" stop-color="rgb(126,83,255)" stop-opacity="1" />
-						  <stop offset="100%" stop-color="rgb(87,177,255)" stop-opacity="1" />
+						  <stop offset="0%" stop-color="rgb(47, 64, 72)" stop-opacity="1" />
+						  <stop offset="100%" stop-color="rgb(84, 76, 59)" stop-opacity="1" />
 						</linearGradient>
 
 						</defs>
@@ -398,8 +437,8 @@
 					<svg class="img-shape shape-two" data-aos="fade-left" data-aos-duration="3000">
 						<defs>
 						<linearGradient id="yuthy_lg" x1="42.262%" x2="0%" y1="90.631%" y2="0%">
-						  <stop offset="0%" stop-color="rgb(126,83,255)" stop-opacity="1" />
-						  <stop offset="100%" stop-color="rgb(87,177,255)" stop-opacity="1" />
+						  <stop offset="0%" stop-color="rgb(47, 64, 72)" stop-opacity="1" />
+						  <stop offset="100%" stop-color="rgb(84, 76, 59)" stop-opacity="1" />
 						</linearGradient>
 
 						</defs>
@@ -407,15 +446,15 @@
 						 d="M443.500,890.999 C688.438,890.999 887.000,691.542 887.000,445.499 C887.000,199.456 688.438,-0.001 443.500,-0.001 C198.562,-0.001 -0.000,199.456 -0.000,445.499 C-0.000,691.542 198.562,890.999 443.500,890.999 Z"/>
 					</svg>
 					<svg class="img-shape shape-three">
-						<path fill-rule="evenodd"  fill="rgb(255, 151, 238)"
+						<path fill-rule="evenodd"  fill="rgb(229, 135, 124)"
 						 d="M8.500,16.999 C13.194,16.999 17.000,13.194 17.000,8.499 C17.000,3.805 13.194,-0.001 8.500,-0.001 C3.805,-0.001 -0.000,3.805 -0.000,8.499 C-0.000,13.194 3.805,16.999 8.500,16.999 Z"/>
 					</svg>
 					<svg class="img-shape shape-four">
-						<path fill-rule="evenodd"  fill="rgb(255, 206, 92)"
+						<path fill-rule="evenodd"  fill="rgb(237, 222, 171)"
 						 d="M5.500,10.999 C8.537,10.999 11.000,8.537 11.000,5.499 C11.000,2.462 8.537,-0.001 5.500,-0.001 C2.462,-0.001 -0.000,2.462 -0.000,5.499 C-0.000,8.537 2.462,10.999 5.500,10.999 Z"/>
 					</svg>
 					<svg class="img-shape shape-five">
-						<path fill-rule="evenodd" fill="rgb(56, 248, 189)" d="M10.000,19.999 C15.523,19.999 20.000,15.522 20.000,9.999 C20.000,4.476 15.523,-0.000 10.000,-0.000 C4.477,-0.000 -0.000,4.476 -0.000,9.999 C-0.000,15.522 4.477,19.999 10.000,19.999 Z"></path>
+						<path fill-rule="evenodd" fill="rgb(224, 133, 133)" d="M10.000,19.999 C15.523,19.999 20.000,15.522 20.000,9.999 C20.000,4.476 15.523,-0.000 10.000,-0.000 C4.477,-0.000 -0.000,4.476 -0.000,9.999 C-0.000,15.522 4.477,19.999 10.000,19.999 Z"></path>
 					</svg>
 				</div> <!-- /.shape-wrapper -->
 				<div class="container">

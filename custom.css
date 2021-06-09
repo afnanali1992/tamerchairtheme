@@ -1,56 +1,64 @@
 .logo.lg-3 {
-    width: 180px !important;
-    height: 50px !important;
+  width: 180px !important;
+  height: 50px !important;
 }
 
-.theme-main-menu{
-    padding: 10px 5% 10px !important;
+.theme-main-menu {
+  padding: 10px 5% 10px !important;
 }
 
 .logo-header {
-    margin-bottom: 66px !important;
+  margin-bottom: 66px !important;
 }
 
 .theme-menu-two #mega-menu-holder {
-    margin-left: 0% !important;
+  margin-left: 0% !important;
 }
 
-.rogan-hero-section.rogan-hero-three .shape-one{
-    
+.rogan-hero-section.rogan-hero-three .shape-one {
 }
 
- 
+#ctf .ctf-item {
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 20px 40px 0px rgb(60 60 60 / 5%);
+  margin: unset;
+  padding: 45px 24px 55px;
+  position: relative;
+  height: 317px;
+}
+#ctf {
+  margin-left: unset !important;
+}
 
-#ctf .ctf-item{
-    border-radius: 4px;
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px 20px 40px 0px rgb(60 60 60 / 5%);
-        margin: unset;
-        padding: 45px 24px 55px;
-        position: relative;
-    height:317px;
-    }
-    #ctf {
-        margin-left: unset !important;
-    }
-    
-    .ctf-carousel .ctf-owl-item{
-       padding: 45px 15px 55px;
-    }
-    
-    .ctf-carousel .ctf-owl-dots{
-    display:none;
-    }
+.ctf-carousel .ctf-owl-item {
+  padding: 45px 15px 55px;
+}
 
+.ctf-carousel .ctf-owl-dots {
+  display: none;
+}
 
-    @media (max-width: 575px) {
+@media (max-width: 575px) {
+  /* // Align text to center. */
+  .text-xs-center {
+    text-align: center;
+  }
+  .xs-hide {
+    display: none;
+  }
+}
 
-        /* // Align text to center. */
-        .text-xs-center {
-          text-align: center;
-        } 
-        .xs-hide{
-            display: none;
-        }
-      }
-    
+/* Shapes */
+
+.rogan-hero-section.rogan-hero-three .shape-one {
+  background: linear-gradient(134deg, #e0cc82, #e8d494);
+}
+
+.rogan-hero-section.rogan-hero-three .shape-two {
+  background: linear-gradient(
+    321deg,
+    rgba(224, 133, 133, 1),
+    rgba(229, 135, 124, 0.56)
+  );
+}

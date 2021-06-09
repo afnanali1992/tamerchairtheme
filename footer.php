@@ -28,7 +28,7 @@
 							</div> <!-- /.footer-list -->
 							<div class="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information">
 								 <h5 class="footer-title">Our Address</h5>
-								<p>Building No. 6 - First Floor - Faculty of Pharmacy - King Abdulaziz University - Jeddah - Saudi Arabia</p> 
+								<p>Faculty of Pharmacy <br> King Abdulaziz University <br> Jeddah, Saudi Arabia <br> Postal Code: 21589 - P.O.Box: 80200</p> 
 								<!-- <p>Follow us to get the latest news from Tamer Chair</p> -->
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
