@@ -70,7 +70,7 @@ function load_stylesheets()
 
 //Add class for the item menu  >> li
 function add_class_on_li($classes, $item, $args) {
-    if($args->theme_location === 'header') {
+    if($args->theme_location === 'header___en' || $args->theme_location === 'header___ar') {
         $classes[] = 'nav-item dropdown';
     }
 
