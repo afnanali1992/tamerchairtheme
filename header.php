@@ -103,7 +103,7 @@
 						   <div class="collapse navbar-collapse" id="navbarSupportedContent">
 						   		<?php wp_nav_menu(
 									   array(
-										   'theme_location' => 'header',
+										   'theme_location' => 'header___en',
 										   'container'=> 'ul',
 										   'menu_class' => 'navbar-nav',
 										   'start_depth'=>  1,
