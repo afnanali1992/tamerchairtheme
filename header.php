@@ -91,7 +91,7 @@
 				<div class="d-flex align-items-center ">
 				<!-- LOGO -->
 					<!-- <div class="logo"><a href="index.html"><img src="<?php bloginfo('template_directory')?>/images/logo/logo.svg" alt=""></a></div> -->
-					<div class="right-content ml-auto order-lg-3">
+					<div class="right-content  order-lg-3">
 						<a href="contact-v1.html" class="theme-btn line-button-one button-rose contact-button button-white-bg">Contact us</a>
 					</div>
 
