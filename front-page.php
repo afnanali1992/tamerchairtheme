@@ -9,7 +9,7 @@
 				<div class="shape-wrapper">
 
 
-					<img src="<?php bloginfo('template_directory')?>/images/home/Chair.png" alt="" class="main-image-shape img-shape wow fadeInRight animated" data-wow-duration="3s">
+					<img src="/wp-content/themes/Afnan/images/home/Chair.png" alt="" class="main-image-shape img-shape wow fadeInRight animated" data-wow-duration="3s">
 					<div class="img-shape shape-one wow fadeInRight animated" data-wow-duration="2.3s"></div>
 					<div class="img-shape shape-two wow zoomIn animated" data-wow-duration="2.3s" data-wow-delay="2.2s"></div>
 					<div class="img-shape shape-three wow zoomIn animated" data-wow-duration="2.3s" data-wow-delay="2.2s"></div>
@@ -58,8 +58,8 @@
 						<div class="item">
 							<div class="gallery-polar-state">
 								<div class="img-holder pos-r">
-									<img src="<?php bloginfo('template_directory')?>/images/home/3rd.png" alt="">
-									<a href="<?php bloginfo('template_directory')?>/images/home/3rd.png"
+									<img src="/wp-content/themes/Afnan/images/home/3rd.png" alt="">
+									<a href="/wp-content/themes/Afnan/images/home/3rd.png"
 										class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
 								</div> <!-- /.img-holder -->
 							</div> <!-- /.gallery-polar-state -->
@@ -67,8 +67,8 @@
 						<div class="item">
 							<div class="gallery-polar-state">
 								<div class="img-holder pos-r">
-									<img src="<?php bloginfo('template_directory')?>/images/home/Building.png" alt="">
-									<a href="<?php bloginfo('template_directory')?>/images/home/Building.png"
+									<img src="/wp-content/themes/Afnan/images/home/Building.png" alt="">
+									<a href="/wp-content/themes/Afnan/images/home/Building.png"
 										class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
 								</div> <!-- /.img-holder -->
 							</div> <!-- /.gallery-polar-state -->
@@ -76,8 +76,8 @@
 						<div class="item">
 							<div class="gallery-polar-state">
 								<div class="img-holder pos-r">
-									<img src="<?php bloginfo('template_directory')?>/images/home/MST.png" alt="">
-									<a href="<?php bloginfo('template_directory')?>images/home/MST.png"
+									<img src="/wp-content/themes/Afnan/images/home/MST.png" alt="">
+									<a href="/wp-content/themes/Afnanimages/home/MST.png"
 										class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
 								</div> <!-- /.img-holder -->
 							</div> <!-- /.gallery-polar-state -->
@@ -85,8 +85,8 @@
 						<div class="item">
 							<div class="gallery-polar-state">
 								<div class="img-holder pos-r">
-									<img src="<?php bloginfo('template_directory')?>/images/home/SAJA.png" alt="">
-									<a href="<?php bloginfo('template_directory')?>images/home/SAJA.png"
+									<img src="/wp-content/themes/Afnan/images/home/SAJA.png" alt="">
+									<a href="/wp-content/themes/Afnanimages/home/SAJA.png"
 										class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
 								</div> <!-- /.img-holder -->
 							</div> <!-- /.gallery-polar-state -->
@@ -94,8 +94,8 @@
 						<div class="item">
 							<div class="gallery-polar-state">
 								<div class="img-holder pos-r">
-									<img src="<?php bloginfo('template_directory')?>/images/home/HCHQ.png" alt="">
-									<a href="<?php bloginfo('template_directory')?>images/home/HCHQ.png"
+									<img src="/wp-content/themes/Afnan/images/home/HCHQ.png" alt="">
+									<a href="/wp-content/themes/Afnanimages/home/HCHQ.png"
 										class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
 								</div> <!-- /.img-holder -->
 							</div> <!-- /.gallery-polar-state -->
@@ -103,8 +103,8 @@
 						<div class="item">
 							<div class="gallery-polar-state">
 								<div class="img-holder pos-r">
-									<img src="<?php bloginfo('template_directory')?>/images/home/Chair.jpg" alt="">
-									<a href="<?php bloginfo('template_directory')?>images/home/HCHQ.png"
+									<img src="/wp-content/themes/Afnan/images/home/Chair.jpg" alt="">
+									<a href="/wp-content/themes/Afnanimages/home/HCHQ.png"
 										class="icon zoom fancybox" data-fancybox="images" data-caption="My caption">+</a>
 								</div> <!-- /.img-holder -->
 							</div> <!-- /.gallery-polar-state -->
@@ -177,8 +177,8 @@
 							</div>
 							<div class="col-lg-6 order-lg-first">
 								<div class="main-img-box pos-r hide-pr md-mt-50">
-									<div class="img-one pos-r wow fadeInLeft" data-wow-duration="2s"><img src="<?php bloginfo('template_directory')?>/images/home/home-3.jpeg" alt=""></div>
-									<div class="img-two pos-r wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s"  style="max-width:60%"><img src="<?php bloginfo('template_directory')?>/images/home/home-4.jpeg" alt=""></div>
+									<div class="img-one pos-r wow fadeInLeft" data-wow-duration="2s"><img src="/wp-content/themes/Afnan/images/home/home-3.jpeg" alt=""></div>
+									<div class="img-two pos-r wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s"  style="max-width:60%"><img src="/wp-content/themes/Afnan/images/home/home-4.jpeg" alt=""></div>
 								</div>
 							</div>
 						</div>
@@ -325,7 +325,7 @@
 								<div class="table-content">
 									<div id="monthly" class="tab-pane price-table in active">
 								    	<div class="col-inner">
-										<img src="<?php bloginfo('template_directory')?>/images/home/nabil.png" alt="">
+										<img src="/wp-content/themes/Afnan/images/home/nabil.png" alt="">
 				                           
 				                           
 				                        </div>
@@ -341,7 +341,7 @@
 				                                <li>24 hour support</li>
 				                                <li>Customer Managemet</li>
 				                            </ul> -->
-											<!-- <img src="<?php bloginfo('template_directory')?>/images/home/nabil.png" alt=""> -->
+											<!-- <img src="/wp-content/themes/Afnan/images/home/nabil.png" alt=""> -->
 				                        </div>
 								  	</div> <!-- /#yearly -->
 								</div> <!-- /.table-content -->
@@ -403,7 +403,7 @@
 
 					<div class="order-lg-first">
 						<div class="slider-wrapper">
-						 <?php echo do_shortcode('[custom-twitter-feeds screenname="afnanali9" class="slider-wrapper"]'); ?>
+						 [custom-twitter-feeds screenname="afnanali9" class="slider-wrapper"] 
 					 
 						</div> <!-- /.slider-wrapper -->
 					</div>
