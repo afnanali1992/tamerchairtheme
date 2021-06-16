@@ -52,16 +52,17 @@
 }
 
 .rogan-hero-section.rogan-hero-three .banner-main-title {
-  font-family: "GE-Dinr Script-Bold", sans-serif, Arial, sans-serif !important;
   line-height: 92px;
   font-weight: bold;
 }
 
 .rogan-hero-section.rogan-hero-three .banner-main-title span {
-  font-family: "GE-Dinr Script-Bold", sans-serif, Arial, sans-serif !important;
   font-weight: 500;
 }
 
-body {
+body,
+.rogan-hero-section.rogan-hero-three .banner-upper-heading,
+.rogan-hero-section.rogan-hero-three .banner-main-title span,
+.rogan-hero-section.rogan-hero-three .banner-main-title {
   font-family: "GE-Dinr Script-Bold", sans-serif, Arial, sans-serif !important;
 }
