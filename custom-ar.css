@@ -141,6 +141,10 @@ h5,
 .feature-block-one {
   text-align: right;
 }
-.our-core-feature .text-content {
+.text-content {
   text-align: right;
+}
+
+.pricing-plan-classic .tab-content .table-content .price-table {
+  transform: scale(0.8, 0.8) translateX(-225px);
 }
