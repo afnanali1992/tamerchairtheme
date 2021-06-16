@@ -146,7 +146,7 @@ h5,
 }
 
 .pricing-plan-classic .tab-content .table-content .price-table {
-  transform: scale(0.8, 0.8) translateX(-225px);
+  transform: scale(0.8, 0.8) translateX(-25px);
 }
 .testimonial-section-standard .shape-one {
   right: -320px;
@@ -192,4 +192,10 @@ h5,
   margin-left: 85px;
   margin-right: -109px;
   direction: ltr !important;
+}
+
+@media (max-width: 1199px) {
+  .testimonial-section-standard .slider-wrapper {
+    margin: 0 !important;
+  }
 }
