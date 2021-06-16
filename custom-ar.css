@@ -38,3 +38,15 @@
 .rogan-hero-section .main-wrapper {
   text-align: right;
 }
+
+/* Fonts */
+
+@font-face {
+  font-family: GE-Dinr Script-Bold;
+  src: url(http://tamerchair.org/themes/Afnan/fonts/arabic/GE_Dinar_Two_Medium.otf);
+  font-weight: normal;
+}
+
+.rtl * {
+  font-family: "GE-Dinr Script-Bold", sans-serif, Arial, sans-serif !important;
+}
