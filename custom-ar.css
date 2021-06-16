@@ -148,3 +148,42 @@ h5,
 .pricing-plan-classic .tab-content .table-content .price-table {
   transform: scale(0.8, 0.8) translateX(-225px);
 }
+.testimonial-section-standard .shape-one {
+  right: -320px;
+  left: unset;
+}
+
+.testimonial-section-standard .shape-two {
+  right: -330px;
+  left: unset;
+}
+
+.contact-home-one .shape-one {
+  left: -245px;
+  right: unset;
+}
+
+.contact-home-one .shape-two {
+  left: -265px;
+  right: unset;
+}
+.contact-home-one .theme-form-style-two {
+  margin-left: unset;
+  margin-right: 62px;
+}
+.contact-home-one .contact-text p:before {
+  right: 0;
+  left: unset;
+}
+
+.contact-home-one .shape-three {
+  right: 25%;
+  left: unset;
+}
+.contact-home-one .shape-four {
+  right: 5%;
+  left: unset;
+}
+.contact-home-one .shape-five {
+  right: 37%;
+}
