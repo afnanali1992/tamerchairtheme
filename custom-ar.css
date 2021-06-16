@@ -7,3 +7,34 @@
   left: -184px;
   right: unset;
 }
+
+.rogan-hero-section.rogan-hero-three .shape-two {
+  left: 770px;
+  right: unset;
+}
+
+.rogan-hero-section.rogan-hero-three .shape-three {
+  left: 287px;
+  right: unset;
+}
+.rogan-hero-section.rogan-hero-three .shape-four {
+  right: 28%;
+  left: unset;
+}
+.rogan-hero-section.rogan-hero-three .shape-five {
+  right: 4%;
+  left: unset;
+}
+
+.rogan-hero-section.rogan-hero-three .shape-six {
+  right: 51%;
+  left: unset;
+}
+.rogan-hero-section.rogan-hero-three .shape-seven {
+  right: 33%;
+  left: unset;
+}
+
+.rogan-hero-section .main-wrapper {
+  text-align: left;
+}
