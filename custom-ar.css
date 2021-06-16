@@ -105,3 +105,40 @@ h2,
 .about-us-block-two .order-lg-last {
   text-align: right;
 }
+
+.our-core-feature.style-two .shape-one {
+  left: -355px;
+  right: unset;
+}
+.our-core-feature.style-two .shape-two {
+  left: -377px;
+  right: unset;
+}
+
+.our-core-feature.style-two .shape-three {
+  right: 32%;
+  left: unset;
+}
+.our-core-feature.style-two .shape-four {
+  right: 6%;
+  left: unset;
+}
+.our-core-feature.style-two .shape-five {
+  right: 6%;
+  left: unset;
+}
+.our-core-feature.style-two .shape-six {
+  right: 35%;
+  left: unset;
+}
+.our-core-feature.style-two .shape-seven {
+  left: 40%;
+  right: unset;
+}
+
+.feature-block-one {
+  text-align: right;
+}
+.our-core-feature .text-content {
+  text-align: right;
+}
