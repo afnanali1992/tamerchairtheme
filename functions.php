@@ -11,6 +11,13 @@ function load_stylesheets()
 
     wp_register_style('custom',get_template_directory_uri().'/custom.css',array(),1,'all');
     wp_enqueue_style('custom');
+
+   if (pll_current_language() == 'ar'){
+    wp_register_style('custom_ar',get_template_directory_uri().'/custom-ar.css',array(),1,'all');
+    wp_enqueue_style('custom_ar');
+   }
+ 
+
 }
  add_action('wp_enqueue_scripts','load_stylesheets');
 

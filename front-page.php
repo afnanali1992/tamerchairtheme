@@ -403,7 +403,7 @@
 
 					<div class="order-lg-first">
 						<div class="slider-wrapper">
-						 [custom-twitter-feeds screenname="afnanali9" class="slider-wrapper"] 
+						<?php echo do_shortcode('[custom-twitter-feeds screenname="afnanali9" class="slider-wrapper"]') ?>
 					 
 						</div> <!-- /.slider-wrapper -->
 					</div>
