@@ -191,5 +191,5 @@ h5,
 .testimonial-section-standard .slider-wrapper {
   margin-left: 85px;
   margin-right: -109px;
-  direction: ltr;
+  direction: ltr !important;
 }
