@@ -66,3 +66,34 @@ body,
 .rogan-hero-section.rogan-hero-three .banner-main-title {
   font-family: "GE-Dinr Script-Bold", sans-serif, Arial, sans-serif !important;
 }
+
+.about-us-block-two .shape-one {
+  right: -290px;
+  left: unset;
+}
+
+.about-us-block-two .shape-two {
+  right: -330px;
+  left: unset;
+}
+.about-us-block-two .shape-three {
+  left: 40%;
+  right: unset;
+}
+.about-us-block-two .shape-four {
+  left: 2%;
+  right: unset;
+}
+.about-us-block-two .shape-five {
+  left: 30%;
+  right: unset;
+}
+.about-us-block-two .main-img-box .img-two {
+  right: -165px;
+  left: unset;
+  transform: scaleX(-1);
+}
+
+.about-us-block-two .order-lg-last {
+  text-align: right;
+}
