@@ -187,3 +187,9 @@ h5,
 .contact-home-one .shape-five {
   right: 37%;
 }
+
+.testimonial-section-standard .slider-wrapper {
+  margin-left: 85px;
+  margin-right: -109px;
+  direction: ltr;
+}
