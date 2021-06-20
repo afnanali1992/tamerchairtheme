@@ -63,12 +63,12 @@
   );
 }
 
-.order-lg-last .about-us-block-two .box-shape {
+.about-us-block-two .order-lg-last .box-shape {
   right: -105px;
   left: unset;
 }
 
-.order-lg-last .about-us-block-two .dot-shape {
+.about-us-block-two .order-lg-last .dot-shape {
   right: -145px;
   left: unset;
 }
