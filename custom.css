@@ -62,3 +62,13 @@
     rgba(229, 135, 124, 0.56)
   );
 }
+
+.order-lg-last .about-us-block-two .box-shape {
+  right: -105px;
+  left: unset;
+}
+
+.order-lg-last .about-us-block-two .dot-shape {
+  right: -145px;
+  left: unset;
+}
