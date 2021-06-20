@@ -72,3 +72,15 @@
   right: -145px;
   left: unset;
 }
+
+.why-choose-us {
+  background: linear-gradient(
+    140deg,
+    rgb(184, 177, 162) 0%,
+    rgb(199, 185, 144) 100%
+  );
+}
+
+.why-choose-us .text-wrapper {
+  max-width: 550px;
+}
