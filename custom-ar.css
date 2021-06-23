@@ -72,6 +72,7 @@ h2,
 h5,
 .h4,
 h4,
+.theme-list-item li,
 .rogan-hero-section.rogan-hero-three .banner-upper-heading,
 .rogan-hero-section.rogan-hero-three .banner-main-title span,
 .rogan-hero-section.rogan-hero-three .banner-main-title,
@@ -259,4 +260,5 @@ h4,
 .theme-list-item li {
   padding-right: 22px;
   padding-left: unset;
+  font-family: "GE-Dinr Script-Bold", sans-serif, Arial, sans-serif !important;
 }
