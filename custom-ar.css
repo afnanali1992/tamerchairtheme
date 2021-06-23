@@ -70,6 +70,8 @@ body,
 h2,
 .h5,
 h5,
+.h4,
+h4,
 .rogan-hero-section.rogan-hero-three .banner-upper-heading,
 .rogan-hero-section.rogan-hero-three .banner-main-title span,
 .rogan-hero-section.rogan-hero-three .banner-main-title,
@@ -227,4 +229,14 @@ h5,
     line-height: 80px;
     padding: 0 0 50px 0;
   }
+}
+
+.about-us-block-two .order-lg-last .box-shape {
+  left: -105px;
+  right: unset;
+}
+
+.about-us-block-two .order-lg-last .dot-shape {
+  left: -145px;
+  right: unset;
 }
