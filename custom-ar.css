@@ -231,6 +231,15 @@ h4,
   }
 }
 
+.about-us-block-two .box-shape {
+  right: -105px;
+  left: unset;
+}
+
+.about-us-block-two .dot-shape {
+  right: -145px;
+  left: unset;
+}
 .about-us-block-two .order-lg-last .box-shape {
   left: -105px;
   right: unset;
