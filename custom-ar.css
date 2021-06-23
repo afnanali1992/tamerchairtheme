@@ -199,3 +199,23 @@ h5,
     margin: 0 !important;
   }
 }
+
+.banner-large-text .shape-one:before {
+  right: -33px;
+  left: unset;
+}
+
+.banner-large-text .shape-one {
+  left: 0;
+  right: unset;
+}
+
+.banner-large-text .title {
+  padding-right: 0px;
+  padding-left: 200px;
+}
+
+.banner-large-text .title span:before {
+  left: -190px;
+  right: unset;
+}
