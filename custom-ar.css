@@ -249,3 +249,14 @@ h4,
   left: -145px;
   right: unset;
 }
+
+.theme-list-item li i,
+.theme-list-item li span {
+  right: 0;
+  left: unset;
+}
+
+.theme-list-item li {
+  padding-right: 22px;
+  padding-left: unset;
+}
