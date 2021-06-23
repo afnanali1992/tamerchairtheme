@@ -92,3 +92,8 @@
 .about-us-block-two .box-shape {
   background: rgb(218, 194, 108);
 }
+.line {
+  border-top: 1px solid rgb(247 243 229);
+  padding-top: 48px;
+  margin-top: 55px;
+}
