@@ -208,6 +208,7 @@ h3,
 .banner-large-text .shape-one:before {
   right: -33px;
   left: unset;
+  transform: scaleX(-1);
 }
 
 .banner-large-text .shape-one {
