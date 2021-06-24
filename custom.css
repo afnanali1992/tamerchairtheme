@@ -98,3 +98,9 @@
   margin-top: 55px;
   box-shadow: inset 0 10px 10px -10px rgb(243 233 199 / 50%);
 }
+
+.our-team .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
