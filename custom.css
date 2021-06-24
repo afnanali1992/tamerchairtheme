@@ -103,4 +103,16 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  inset: 0px;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.team-minimal .single-team-member .img-box {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0);
 }
