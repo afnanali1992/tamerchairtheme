@@ -269,5 +269,5 @@ h6,
 }
 
 .wpcf7-form p {
-  text-align: right;
+  direction: rtl;
 }
