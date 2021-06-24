@@ -268,6 +268,9 @@ h6,
   font-family: "GE-Dinr Script-Bold", sans-serif, Arial, sans-serif !important;
 }
 
-.wpcf7-form p {
+.wpcf7-form p,
+.wpcf7 input[type="url"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"] {
   direction: rtl;
 }
