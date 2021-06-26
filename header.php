@@ -89,10 +89,11 @@ endif
 								<?php wp_nav_menu(
 									   array(
 										   'theme_location' => 'header',
-										   'container'=> 'ul',
+										   'container_class' => 'collapse navbar-collapse',
+										   'container_id' => 'navbarSupportedContent',
 										   'menu_class' => 'navbar-nav',
-										   'start_depth'=>  1,
 										   'walker' => new Rogan_Nav_Navwalker(),
+										   'depth' => 3
 									   )
 									   ); ?>
 
