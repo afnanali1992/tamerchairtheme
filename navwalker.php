@@ -81,6 +81,7 @@ class Rogan_Nav_Navwalker extends Walker_Nav_Menu {
         // If item has_children add atts to a.
         if ( $args->has_children && 0 === $depth || $item->mega_menu && 0 === $depth ) {
             $atts['class'] = 'nav-link dropdown-toggle';
+            $atts['data-toggle'] = 'dropdown';
             $atts['href'] = ! empty( $item->url ) ? $item->url : '';
         }
         elseif( 0 === $depth ) {
