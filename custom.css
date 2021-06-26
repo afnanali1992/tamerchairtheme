@@ -148,3 +148,12 @@
 #menu-item-4975 .dropdown-menu li .dropdown-item img {
   margin: auto;
 }
+
+.logo-header {
+  margin-bottom: unset !important;
+}
+
+.theme-main-menu {
+  padding: 12px 2% 12px !important;
+  background-color: white;
+}
