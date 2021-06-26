@@ -92,7 +92,7 @@ endif
 										   'container'=> 'ul',
 										   'menu_class' => 'navbar-nav',
 										   'start_depth'=>  1,
-										   'walker'   => new Rogan_Nav_Navwalker(),
+										   'walker' => new Rogan_Nav_Navwalker(),
 									   )
 									   ); ?>
 
