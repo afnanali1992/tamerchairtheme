@@ -76,7 +76,7 @@ function load_stylesheets()
 
 
 //Add class for the item menu  >> li
-function add_class_on_li($classes, $item) {
+function add_class_on_li($classes, $item, $args) {
     if($args->theme_location === 'header' || $args->theme_location === 'header___ar') {
         $classes[] = 'nav-item dropdown';
     }
@@ -90,15 +90,12 @@ add_filter('nav_menu_css_class', 'add_class_on_li', 10, 3 );
 
 
 // Add class to link angor <a>  in item menu 
-function add_link_atts($atts,$item,$args) {
+function add_link_atts($atts,$item,) {
 
     if( !$item->has_children && $item->menu_item_parent > 0 ) {
         $atts['class'] = "dropdown-item";
     }
-    // elseif($args->has_children && (1 === $depth)) {
-    //     $atts['class']="nav-link dropdown-toggle";
-    //     $atts['data-toggle']="dropdown";
-    // }
+   
    else{
     $atts['class']="nav-link";
  
@@ -118,14 +115,3 @@ add_action('nav_menu_submenu_css_class', 'overrideSubmenuClasses');
 
 
 
-public function start_lvl( &$output, $depth = 0, $args = array() ) {
-    $indent = str_repeat( "\t", $depth );
-    if($depth == 0) {
-        $output .= "\n$indent<ul role=\"menu\" class=\" dropdown-menu\" >\n";
-    }
-    if($depth == 1) {
-        $output .= "\n$indent<ul role=\"menu\" class=\" second_depth_dropdown dropdown-menu\" >\n";
-    }
-}
-
- 
