@@ -117,6 +117,6 @@ add_action('nav_menu_submenu_css_class', 'overrideSubmenuClasses');
 
 
 function register_navwalker(){
-	require_once get_template_directory_uri(). '/navwalker.php';
+	require_once get_template_directory().'/navwalker.php';
 }
 add_action( 'after_setup_theme', 'register_navwalker' );
