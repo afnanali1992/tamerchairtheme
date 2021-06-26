@@ -1,8 +1,5 @@
 <?php
- function register_navwalker(){
-	require_once get_template_directory() . '/navwalker.php';
-}
-add_action( 'after_setup_theme', 'register_navwalker' );
+require get_template_directory_uri() . '/navwalker.php';
 
 function load_stylesheets()
 {
