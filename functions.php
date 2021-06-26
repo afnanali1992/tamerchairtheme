@@ -93,10 +93,13 @@ add_filter('nav_menu_css_class', 'add_class_on_li', 10, 3 );
 function add_link_atts($atts,$item) {
 
     if( !$item->has_children && $item->menu_item_parent > 0 ) {
-        $atts['class'] = "dropdown-item dropdown-toggle";
+        $atts['class'] = "dropdown-item";
+    }
+    elseif($item->has_children){
+        $atts['class']="nav-link dropdown-toggle"
     }
    else{
-    $atts['class'] = "nav-link";
+    $atts['class'] = "nav-link dropdown-toggle";
    }
     return $atts;
   }
