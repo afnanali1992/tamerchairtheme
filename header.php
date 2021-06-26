@@ -88,11 +88,13 @@ endif
 							<div class="collapse navbar-collapse" id="navbarSupportedContent">
 								<?php wp_nav_menu(
 									   array(
-										   'theme_location' => 'header',
-										   'container'=> 'ul',
-										   'menu_class' => 'navbar-nav',
-										   'start_depth'=>  1,
-										   'walker' => new Rogan_Nav_Navwalker(),
+										'menu' => 'main_menu',
+										'theme_location' => 'header',
+										'menu_class' => 'navbar-nav',
+										'container_class' => 'collapse navbar-collapse',
+										'container_id' => 'navbarSupportedContent1',
+										'walker' => new Rogan_Nav_Navwalker(),
+										'depth' => 3
 									   )
 									   ); ?>
 
