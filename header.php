@@ -78,7 +78,7 @@ endif
 					<!-- <div class="logo"><a href="index.html"><img src="<?php bloginfo('template_directory')?>/images/logo/logo.svg" alt=""></a></div> -->
 
 
-					<nav id="mega-menu-holder" class="navbar navbar-expand-lg lg-2">
+					<nav id="mega-menu-holder" class="navbar navbar-expand-xl lg-2">
 						<div class="container nav-container">
 							<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
 								data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -118,7 +118,7 @@ endif
 						</div>
 					</nav>
 
-					<div class="lg-3">
+					<div class="lg-3 contact-us">
 						<a href="contact-v1.html"
 							class="theme-btn line-button-one button-rose contact-button button-white-bg">Contact us</a>
 					</div>

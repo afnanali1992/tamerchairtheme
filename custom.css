@@ -157,3 +157,12 @@
   padding: 12px 2% 12px !important;
   background-color: white;
 }
+
+@media (max-width: 1140px) {
+  .contact-us {
+    display: none;
+  }
+  #mega-menu-holder {
+    order: -1;
+  }
+}
