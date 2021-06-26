@@ -98,7 +98,7 @@ function add_link_atts($atts,$item,$args) {
     if( !$item->has_children && $item->menu_item_parent > 0 ) {
         $atts['class'] = "dropdown-item";
     }
-    elseif ( $args->has_children && 0 === $depth || $item->mega_menu && 0 === $depth ) {
+    elseif ( $item->has_children && 0 === $depth || $item->mega_menu && 0 === $depth ) {
         $atts['class'] = 'nav-link dropdown-toggle';
         $atts['data-toggle'] = 'dropdown';
     }
