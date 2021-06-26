@@ -2,6 +2,7 @@
 // require get_template_directory_uri() . '/navwalker.php';
 
 require get_template_directory() . '/navwalker.php';
+
 function load_stylesheets()
 {
     wp_register_style('style',get_template_directory_uri().'/css/style.css',array(),1,'all');
