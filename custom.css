@@ -128,3 +128,19 @@
   font-size: 18px;
   font-weight: bold;
 }
+
+#menu-item-4947 .dropdown-menu {
+  min-width: 15px;
+}
+
+#menu-item-4947 .dropdown-menu li {
+  padding: 5px 0px;
+}
+
+#menu-item-4947 .dropdown-menu li .dropdown-item {
+  padding: 0 5px 0 5px !important;
+}
+
+#menu-item-4947 .dropdown-menu li .dropdown-item img {
+  margin: auto;
+}
