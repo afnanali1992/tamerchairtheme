@@ -91,7 +91,7 @@ endif
 										   'theme_location' => 'header',
 										   'container'=> 'ul',
 										   'menu_class' => 'navbar-nav',
-										   'start_depth'=>  1,
+										   'start_depth'=>  0,
 										   'walker' => new Rogan_Nav_Navwalker(),
 									   )
 									   ); ?>
