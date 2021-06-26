@@ -121,4 +121,4 @@ add_action('nav_menu_submenu_css_class', 'overrideSubmenuClasses');
 // }
 // add_action( 'after_setup_theme', 'register_navwalker' );
 
-require get_template_directory() . '/inc/navwalker.php';
+require get_template_directory() . '/navwalker.php';
