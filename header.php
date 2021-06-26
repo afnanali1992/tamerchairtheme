@@ -70,15 +70,13 @@ endif
 					</div> -->
 		 
 		
-
+                    
      
            
-				<div class="d-flex align-items-center ">
+			 
 				<!-- LOGO -->
 					<!-- <div class="logo"><a href="index.html"><img src="<?php bloginfo('template_directory')?>/images/logo/logo.svg" alt=""></a></div> -->
-					<div class="right-content  order-lg-3">
-						<a href="contact-v1.html" class="theme-btn line-button-one button-rose contact-button button-white-bg">Contact us</a>
-					</div>
+
 
 					<nav id="mega-menu-holder" class="navbar navbar-expand-lg order-lg-2">
 						<div  class="container nav-container">
@@ -118,7 +116,9 @@ endif
 						</div> 
 					</nav> 
 		 
-				</div>
+					<div class="right-content  order-lg-3">
+						<a href="contact-v1.html" class="theme-btn line-button-one button-rose contact-button button-white-bg">Contact us</a>
+					</div>
 
 				<div class="logo lg-3"><a href="index.html"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-1.png" alt=""></a></div>
 
