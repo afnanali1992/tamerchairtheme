@@ -99,7 +99,7 @@ function add_link_atts($atts,$item) {
         $atts['class']="nav-link dropdown-toggle";
     }
    else{
-    $atts['class'] = "nav-link dropdown-toggle";
+    $atts['class'] = "nav-link";
    }
     return $atts;
   }
