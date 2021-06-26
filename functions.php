@@ -90,19 +90,18 @@ add_filter('nav_menu_css_class', 'add_class_on_li', 10, 3 );
 
 
 // Add class to link angor <a>  in item menu 
-function add_link_atts($atts,$item) {
+function add_link_atts($atts,$item,$args) {
 
     if( !$item->has_children && $item->menu_item_parent > 0 ) {
         $atts['class'] = "dropdown-item";
     }
-    elseif( $item->is_dropdown && $depth === 0 ){
+    elseif( $args->has_children && (1 === $depth) ) {
         $atts['class']="nav-link dropdown-toggle";
         $atts['data-toggle']="dropdown";
-
     }
    else{
-    $atts['class']="nav-link dropdown-toggle";
-        $atts['data-toggle']="dropdown";
+    $atts['class']="nav-link";
+ 
    }
     return $atts;
   }
