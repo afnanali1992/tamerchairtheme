@@ -78,7 +78,42 @@ function load_stylesheets()
 
 
 //Add class for the item menu  >> li
+function add_class_on_li($classes, $item, $args) {
+    if($args->theme_location === 'header' || $args->theme_location === 'header___ar') {
+        $classes[] = 'nav-item dropdown';
+    }
 
+    if (in_array('current-menu-item', $classes) ){
+        $classes[] = 'nav-item dropdown active ';
+      }
+    return $classes;
+}
+add_filter('nav_menu_css_class', 'add_class_on_li', 10, 3 );
+
+
+// Add class to link angor <a>  in item menu 
+function add_link_atts($atts,$item) {
+
+    if( !$item->has_children && $item->menu_item_parent > 0 ) {
+        $atts['class'] = "dropdown-item";
+    }
+   
+   else{
+    $atts['class']="nav-link";
+ 
+   }
+    return $atts;
+  }
+  add_filter( 'nav_menu_link_attributes', 'add_link_atts',10, 2);
+
+
+// override Submenu Classes
+  function overrideSubmenuClasses( $classes ) {
+    $classes[] = 'dropdown-menu';
+
+    return $classes;
+}
+add_action('nav_menu_submenu_css_class', 'overrideSubmenuClasses');
 
 
 
