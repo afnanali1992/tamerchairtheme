@@ -62,7 +62,7 @@ endif
 			<div class="d-flex  logo-header row align-items-top justify-content-between">
 				<!-- LOGO -->
 				<div class="logo lg-3"><a href="index.html"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-3.png" alt=""></a></div>
-					<div class="logo lg-3"><a href="index.html"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-1.png" alt=""></a></div>
+				
 					
 					<!-- <div class="logo lg-3"><a href="index.html"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-2.png" alt=""></a></div> -->
 					<!-- <div class="right-content ml-auto order-lg-3">
@@ -119,6 +119,8 @@ endif
 					</nav> 
 		 
 				</div>
+
+				<div class="logo lg-3"><a href="index.html"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-1.png" alt=""></a></div>
 
 				</div>
 		 
