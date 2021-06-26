@@ -1,6 +1,7 @@
 <?php
 // require get_template_directory_uri() . '/navwalker.php';
 
+require get_template_directory() . '/navwalker.php';
 function load_stylesheets()
 {
     wp_register_style('style',get_template_directory_uri().'/css/style.css',array(),1,'all');
@@ -120,5 +121,3 @@ add_action('nav_menu_submenu_css_class', 'overrideSubmenuClasses');
 // 	require_once get_template_directory().'/navwalker.php';
 // }
 // add_action( 'after_setup_theme', 'register_navwalker' );
-
-require get_template_directory() . '/navwalker.php';
