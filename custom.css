@@ -1,5 +1,5 @@
 .logo.lg-3 {
-  width: 180px !important;
+  width: 120px !important;
   height: 50px !important;
 }
 
@@ -118,4 +118,13 @@
 
 .about-us-block-one .inner-wrapper .path-shape-holder {
   z-index: unset;
+}
+
+#menu-item-4947 {
+  margin-top: 8px !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  font-weight: bold;
 }
