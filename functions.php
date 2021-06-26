@@ -90,7 +90,7 @@ add_filter('nav_menu_css_class', 'add_class_on_li', 10, 3 );
 
 
 // Add class to link angor <a>  in item menu 
-function add_link_atts($atts,$item,) {
+function add_link_atts($atts,$item) {
 
     if( !$item->has_children && $item->menu_item_parent > 0 ) {
         $atts['class'] = "dropdown-item";
