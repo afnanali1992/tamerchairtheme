@@ -165,4 +165,9 @@
   #mega-menu-holder {
     order: -1;
   }
+  .theme-main-menu,
+  .full-width-container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
 }
