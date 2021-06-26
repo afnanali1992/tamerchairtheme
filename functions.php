@@ -1,7 +1,8 @@
 <?php
-require get_template_directory_uri() . '/navwalker.php';
+// require get_template_directory_uri() . '/navwalker.php';
 
- 
+require get_template_directory() . '/navwalker.php';
+
 function load_stylesheets()
 {
     wp_register_style('style',get_template_directory_uri().'/css/style.css',array(),1,'all');
@@ -77,6 +78,46 @@ function load_stylesheets()
      );
 
 
+//Add class for the item menu  >> li
+// function add_class_on_li($classes, $item, $args) {
+//     if($args->theme_location === 'header' || $args->theme_location === 'header___ar') {
+//         $classes[] = 'nav-item dropdown';
+//     }
+
+//     if (in_array('current-menu-item', $classes) ){
+//         $classes[] = 'nav-item dropdown active ';
+//       }
+//     return $classes;
+// }
+// add_filter('nav_menu_css_class', 'add_class_on_li', 10, 3 );
+
+
+// Add class to link angor <a>  in item menu 
+// function add_link_atts($atts,$item,$args) {
+
+//     if( !$item->has_children && $item->menu_item_parent > 0 ) {
+//         $atts['class'] = "dropdown-item";
+//     }
+//     elseif ( $args->has_children && 0 === $depth || $item->mega_menu && 0 === $depth ) {
+//         $atts['class'] = 'nav-link dropdown-toggle';
+//         $atts['data-toggle'] = 'dropdown';
+//     }
+//    else{
+//     $atts['class']="nav-link";
+ 
+//    }
+//     return $atts;
+//   }
+//   add_filter( 'nav_menu_link_attributes', 'add_link_atts',10, 3);
+
+
+// // override Submenu Classes
+//   function overrideSubmenuClasses( $classes ) {
+//     $classes[] = 'dropdown-menu';
+
+//     return $classes;
+// }
+// add_action('nav_menu_submenu_css_class', 'overrideSubmenuClasses');
 
 
 

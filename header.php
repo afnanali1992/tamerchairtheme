@@ -94,7 +94,7 @@ endif
 										   'container_id' => 'navbarSupportedContent',
 										   'menu_class' => 'navbar-nav',
 										   'walker' => new Rogan_Nav_Navwalker(),
-										   'depth' => 3
+										   'depth' => 3,
 									   )
 									   ); ?>
 
