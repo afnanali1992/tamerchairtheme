@@ -1,5 +1,5 @@
 <?php
-require get_template_directory_uri() . '/navwalker.php';
+// require get_template_directory_uri() . '/navwalker.php';
 
 function load_stylesheets()
 {
