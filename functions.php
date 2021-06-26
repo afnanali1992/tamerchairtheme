@@ -95,7 +95,7 @@ function add_link_atts($atts,$item) {
     if( !$item->has_children && $item->menu_item_parent > 0 ) {
         $atts['class'] = "dropdown-item";
     }
-    elseif($item->has_children){
+    elseif($item->has_children > 0){
         $atts['class']="nav-link dropdown-toggle";
     }
    else{
