@@ -3,7 +3,7 @@
 					<div class="container text-xs-center">
 						<div class="row">
 							<div class="col-lg-3 col-sm-6 col-12 footer-about-widget">
-								<a href="index.html" class="logo"><img src="images/logo/logo.svg" alt=""></a>
+								<a href="index.html" class="logo"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-1.png" alt=""></a>
 								<a href="mailto: info@tamerchair.org" class="email">info@tamerchair.org</a>
 								<a href="tel:012640000" class="phone">012-640000</a>
 								
