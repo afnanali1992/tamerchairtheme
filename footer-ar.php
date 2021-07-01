@@ -28,7 +28,7 @@
 							</div> <!-- /.footer-list -->
 							<div class="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information">
 								 <h5 class="footer-title">عنواننا</h5>
-								<p> كلبة الصيدلة <br> جامعة الملك عبدالعزيز <br> جدة ، جامعة الملك عبدالعزيز <br> <span class="en-number">الرمز البريدي: <span class="en-number">21589 </span> - ص.ب: </span>80200</p> 
+								<p> كلبة الصيدلة <br> جامعة الملك عبدالعزيز <br> جدة ، جامعة الملك عبدالعزيز <br> الرمز البريدي: <span class="en-number">21589 </span> - ص.ب: <span class="en-number">80200</span></p> 
 								<!-- <p>Follow us to get the latest news from Tamer Chair</p> -->
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
