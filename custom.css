@@ -196,3 +196,16 @@
 .en-number {
   font-family: "FontAwesome";
 }
+
+.wpcf7-submit {
+  margin-bottom: unset;
+}
+
+@media (max-width: 991.98px) {
+  .theme-form-style-two {
+    margin-right: unset;
+  }
+  .about-us-block-two .main-img-box .img-one img {
+    height: auto !important;
+  }
+}
