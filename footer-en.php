@@ -4,25 +4,25 @@
 						<div class="row">
 							<div class="col-lg-3 col-sm-6 col-12 footer-about-widget">
 								<a href="index.html" class="logo"><img src="images/logo/logo.svg" alt=""></a>
-								<a href="#" class="email">info@tamerchair.org</a>
-								<a href="#" class="phone">720.661.2234</a>
+								<a href="mailto: info@tamerchair.org" class="email">info@tamerchair.org</a>
+								<a href="tel:012640000" class="phone">720.661.2234</a>
 								
 							</div> <!-- /.about-widget -->
 							<div class="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list xs-hide">
 								<h5 class="footer-title">Links</h5>
 								<ul>
-									<li><a href="#">Home</a></li>
-									<li><a href="#">Awards</a></li>
-									<li><a href="#">Publications</a></li>
-									<li><a href="#">Achievements</a></li>
+									<li><a href="http://tamerchair.org/">Home</a></li>
+									<li><a href="http://tamerchair.org/awards/">Awards</a></li>
+									<li><a href="http://tamerchair.org/publications/">Publications</a></li>
+									<li><a href="http://tamerchair.org/achievements/">Achievements</a></li>
 									<!-- <li><a href="#">Contact </a></li> -->
 								</ul>
 							</div> <!-- /.footer-recent-post -->
 							<div class="col-lg-3 col-sm-6 col-12 footer-list xs-hide">
 								<h5 class="footer-title">About us</h5>
 								<ul>
-									<li><a href="about-standard.html">About us</a></li>
-									<li><a href="team-v1.html">Team</a></li>
+									<li><a href="http://tamerchair.org/about-us">About us</a></li>
+									<li><a href="http://tamerchair.org/staff/">Team</a></li>
 									<li><a href="blog-v1.html">News</a></li>
 								</ul>
 							</div> <!-- /.footer-list -->

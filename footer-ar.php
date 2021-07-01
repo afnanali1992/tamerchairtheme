@@ -4,16 +4,16 @@
 						<div class="row">
 							<div class="col-lg-3 col-sm-6 col-12 footer-about-widget">
 								<a href="index.html" class="logo"><img src="images/logo/logo.svg" alt=""></a>
-								<a href="#" class="email">info@tamerchair.org</a>
-								<a href="#" class="phone">720.661.2234</a>
+								<a href="mailto: info@tamerchair.org" class="email">info@tamerchair.org</a>
+								<a href="tel:012640000" class="phone">012-640000</a>
 								
 							</div> <!-- /.about-widget -->
 							<div class="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list xs-hide">
 								<h5 class="footer-title">روابط سريعة</h5>
 								<ul>
-									<li><a href="#">الصفحة الرئيسية</a></li>
-									<li><a href="#">الجوائز</a></li>
-									<li><a href="#">المنشورات</a></li>
+									<li><a href="http://tamerchair.org/language/ar/homepage-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8%d9%8a%d8%a9/">الصفحة الرئيسية</a></li>
+									<li><a href="http://tamerchair.org/language/ar/%d8%a7%d9%84%d8%ac%d9%88%d8%a7%d8%a6%d8%b2/">الجوائز</a></li>
+									<li><a href="http://tamerchair.org/language/ar/%d8%a7%d9%84%d9%85%d9%86%d8%b4%d9%88%d8%b1%d8%a7%d8%aa/">المنشورات</a></li>
 									<li><a href="#">الإنجازات</a></li>
 									<!-- <li><a href="#">Contact </a></li> -->
 								</ul>
@@ -21,9 +21,9 @@
 							<div class="col-lg-3 col-sm-6 col-12 footer-list xs-hide">
 								<h5 class="footer-title">عن كرسي تمر</h5>
 								<ul>
-									<li><a href="about-standard.html">من نحن</a></li>
-									<li><a href="team-v1.html">الفريق</a></li>
-									<li><a href="blog-v1.html">الأخبار</a></li>
+									<li><a href="http://tamerchair.org/language/ar/%d9%85%d9%86-%d9%86%d8%ad%d9%86/">من نحن</a></li>
+									<li><a href="http://tamerchair.org/language/ar/%d9%81%d8%b1%d9%8a%d9%82-%d8%a7%d9%84%d9%83%d8%b1%d8%b3%d9%8a/">الفريق</a></li>
+									<li><a href="http://tamerchair.org/language/ar/%d8%a7%d9%84%d8%ac%d9%88%d8%a7%d8%a6%d8%b2/">الأخبار</a></li>
 								</ul>
 							</div> <!-- /.footer-list -->
 							<div class="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information">
