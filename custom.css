@@ -203,7 +203,7 @@
 
 @media (max-width: 991.98px) {
   .theme-form-style-two {
-    margin-right: unset;
+    margin-right: unset !important;
   }
   .about-us-block-two .main-img-box .img-one img {
     height: auto !important;
