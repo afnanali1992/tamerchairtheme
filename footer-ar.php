@@ -9,30 +9,30 @@
 								
 							</div> <!-- /.about-widget -->
 							<div class="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list xs-hide">
-								<h5 class="footer-title">Links</h5>
+								<h5 class="footer-title">روابط سريعة</h5>
 								<ul>
-									<li><a href="#">Home</a></li>
-									<li><a href="#">Awards</a></li>
-									<li><a href="#">Publications</a></li>
-									<li><a href="#">Achievements</a></li>
+									<li><a href="#">الصفحة الرئيسية</a></li>
+									<li><a href="#">الجوائز</a></li>
+									<li><a href="#">المنشورات</a></li>
+									<li><a href="#">الإنجازات</a></li>
 									<!-- <li><a href="#">Contact </a></li> -->
 								</ul>
 							</div> <!-- /.footer-recent-post -->
 							<div class="col-lg-3 col-sm-6 col-12 footer-list xs-hide">
-								<h5 class="footer-title">About us</h5>
+								<h5 class="footer-title">عن كرسي تمر</h5>
 								<ul>
-									<li><a href="about-standard.html">About us</a></li>
-									<li><a href="team-v1.html">Team</a></li>
-									<li><a href="blog-v1.html">News</a></li>
+									<li><a href="about-standard.html">من نحن</a></li>
+									<li><a href="team-v1.html">الفريق</a></li>
+									<li><a href="blog-v1.html">الأخبار</a></li>
 								</ul>
 							</div> <!-- /.footer-list -->
 							<div class="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information">
-								 <h5 class="footer-title">Our Address</h5>
-								<p>Faculty of Pharmacy <br> King Abdulaziz University <br> Jeddah, Saudi Arabia <br> Postal Code: 21589 - P.O.Box: 80200</p> 
+								 <h5 class="footer-title">عنواننا</h5>
+								<p> كلبة الصيدلة <br> جامعة الملك عبدالعزيز <br> جدة ، جامعة الملك عبدالعزيز <br> الرمز البريدي: 21589 - ص.ب: 80200</p> 
 								<!-- <p>Follow us to get the latest news from Tamer Chair</p> -->
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="https://twitter.com/tamerchair"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 								</ul>
@@ -43,7 +43,7 @@
 				
 				<div class="container">
 					<div class="bottom-footer-content">
-						<p>&copy; <?php echo date("Y");?> All rights reserved for Saudi Scientific Society of Pharmaceutical Industries. <br>Trade marks are owned by or licensed to the King Abdulaziz University.</p>
+						<p>&copy; <?php echo date("Y");?> جميع الحقوق محفوظة للجمعية العلمية السعودية للصناعات الدوائية. <br>العلامات التجارية مملوكة أو مرخصة لجامعة الملك عبد العزيز.</p>
 					</div> <!-- /.bottom-footer -->
 				</div>
 			</footer> <!-- /.theme-footer-one -->

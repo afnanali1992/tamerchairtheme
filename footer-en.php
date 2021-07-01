@@ -32,7 +32,7 @@
 								<!-- <p>Follow us to get the latest news from Tamer Chair</p> -->
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="https://twitter.com/tamerchair"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 								</ul>
