@@ -176,3 +176,9 @@
   padding-bottom: 0px;
   text-align: center;
 }
+
+.main-p-color .footer-information ul li a {
+  background: var(--p-rose);
+  border-color: var(--p-rose);
+  color: #fff;
+}
