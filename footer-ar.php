@@ -5,7 +5,7 @@
 							<div class="col-lg-3 col-md-6 col-12 footer-about-widget">
 								<a href="index.html" class="logo"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-1.png" alt=""></a>
 								<a href="mailto: info@tamerchair.org" class="email">info@tamerchair.org</a>
-								<a href="tel:012640000" class="phone">012-640000</a>
+								<a href="tel:012640000" class="phone en-number">012640000</a>
 								
 							</div> <!-- /.about-widget -->
 							<div class="col-lg-3 col-lg-3 col-md-6 col-12 footer-list d-none d-lg-block">
@@ -28,7 +28,7 @@
 							</div> <!-- /.footer-list -->
 							<div class="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information">
 								 <h5 class="footer-title">عنواننا</h5>
-								<p> كلبة الصيدلة <br> جامعة الملك عبدالعزيز <br> جدة ، جامعة الملك عبدالعزيز <br> الرمز البريدي: 21589 - ص.ب: 80200</p> 
+								<p> كلبة الصيدلة <br> جامعة الملك عبدالعزيز <br> جدة ، جامعة الملك عبدالعزيز <br> <span class="en-number">الرمز البريدي: <span class="en-number">21589 </span> - ص.ب: </span>80200</p> 
 								<!-- <p>Follow us to get the latest news from Tamer Chair</p> -->
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
