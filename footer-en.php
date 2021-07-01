@@ -2,13 +2,13 @@
 				<div class="top-footer">
 					<div class="container text-xs-center">
 						<div class="row">
-							<div class="col-lg-3 col-sm-6 col-12 footer-about-widget">
+							<div class="col-lg-3 col-md-6 col-12 footer-about-widget">
 								<a href="index.html" class="logo"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-1.png" alt=""></a>
 								<a href="mailto: info@tamerchair.org" class="email">info@tamerchair.org</a>
 								<a href="tel:012640000" class="phone">012640000</a>
 								
 							</div> <!-- /.about-widget -->
-							<div class="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list xs-hide">
+							<div class="col-lg-3 col-lg-3 col-md-6 col-12 footer-list d-none d-lg-block">
 								<h5 class="footer-title">Links</h5>
 								<ul>
 									<li><a href="http://tamerchair.org/">Home</a></li>
@@ -18,7 +18,7 @@
 									<!-- <li><a href="#">Contact </a></li> -->
 								</ul>
 							</div> <!-- /.footer-recent-post -->
-							<div class="col-lg-3 col-sm-6 col-12 footer-list xs-hide">
+							<div class="col-lg-3 col-md-6 col-12 footer-list d-none d-lg-block">
 								<h5 class="footer-title">About us</h5>
 								<ul>
 									<li><a href="http://tamerchair.org/about-us">About us</a></li>
@@ -26,7 +26,7 @@
 									<li><a href="blog-v1.html">News</a></li>
 								</ul>
 							</div> <!-- /.footer-list -->
-							<div class="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information">
+							<div class="col-lg-3 col-lg-2 col-md-6 col-12 footer-information">
 								 <h5 class="footer-title">Our Address</h5>
 								<p>Faculty of Pharmacy <br> King Abdulaziz University <br> Jeddah, Saudi Arabia <br> Postal Code: 21589 - P.O.Box: 80200</p> 
 								<!-- <p>Follow us to get the latest news from Tamer Chair</p> -->

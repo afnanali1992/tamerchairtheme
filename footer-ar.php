@@ -2,13 +2,13 @@
 				<div class="top-footer">
 					<div class="container text-xs-center">
 						<div class="row">
-							<div class="col-lg-3 col-sm-6 col-12 footer-about-widget">
+							<div class="col-lg-3 col-md-6 col-12 footer-about-widget">
 								<a href="index.html" class="logo"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-1.png" alt=""></a>
 								<a href="mailto: info@tamerchair.org" class="email">info@tamerchair.org</a>
 								<a href="tel:012640000" class="phone">012-640000</a>
 								
 							</div> <!-- /.about-widget -->
-							<div class="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list xs-hide">
+							<div class="col-lg-3 col-lg-3 col-md-6 col-12 footer-list d-none d-lg-block">
 								<h5 class="footer-title">روابط سريعة</h5>
 								<ul>
 									<li><a href="http://tamerchair.org/language/ar/homepage-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8%d9%8a%d8%a9/">الصفحة الرئيسية</a></li>
@@ -18,7 +18,7 @@
 									<!-- <li><a href="#">Contact </a></li> -->
 								</ul>
 							</div> <!-- /.footer-recent-post -->
-							<div class="col-lg-3 col-sm-6 col-12 footer-list xs-hide">
+							<div class="col-lg-3 col-md-6 col-12 footer-list d-none d-lg-block">
 								<h5 class="footer-title">عن كرسي تمر</h5>
 								<ul>
 									<li><a href="http://tamerchair.org/language/ar/%d9%85%d9%86-%d9%86%d8%ad%d9%86/">من نحن</a></li>
