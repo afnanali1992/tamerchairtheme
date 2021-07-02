@@ -11,19 +11,19 @@
 							<div class="col-lg-3 col-lg-3 col-md-6 col-12 footer-list d-none d-lg-block">
 								<h5 class="footer-title">روابط سريعة</h5>
 								<ul>
-									<li><a href="http://tamerchair.org/language/ar/homepage-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8%d9%8a%d8%a9/">الصفحة الرئيسية</a></li>
-									<li><a href="http://tamerchair.org/language/ar/%d8%a7%d9%84%d8%ac%d9%88%d8%a7%d8%a6%d8%b2/">الجوائز</a></li>
-									<li><a href="http://tamerchair.org/language/ar/%d8%a7%d9%84%d9%85%d9%86%d8%b4%d9%88%d8%b1%d8%a7%d8%aa/">المنشورات</a></li>
-									<li><a href="#">الإنجازات</a></li>
+									<li><a href="https://tamerchair.org/language/ar/homepage-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8%d9%8a%d8%a9/">الصفحة الرئيسية</a></li>
+									<li><a href="https://tamerchair.org/language/ar/%d8%a7%d9%84%d8%ac%d9%88%d8%a7%d8%a6%d8%b2/">الجوائز</a></li>
+									<li><a href="https://tamerchair.org/language/ar/%d8%a7%d9%84%d9%85%d9%86%d8%b4%d9%88%d8%b1%d8%a7%d8%aa/">المنشورات</a></li>
+									<li><a href="https://tamerchair.org/language/ar/achievements-2/">الإنجازات</a></li>
 									<!-- <li><a href="#">Contact </a></li> -->
 								</ul>
 							</div> <!-- /.footer-recent-post -->
 							<div class="col-lg-3 col-md-6 col-12 footer-list d-none d-lg-block">
 								<h5 class="footer-title">عن كرسي تمر</h5>
 								<ul>
-									<li><a href="http://tamerchair.org/language/ar/%d9%85%d9%86-%d9%86%d8%ad%d9%86/">من نحن</a></li>
-									<li><a href="http://tamerchair.org/language/ar/%d9%81%d8%b1%d9%8a%d9%82-%d8%a7%d9%84%d9%83%d8%b1%d8%b3%d9%8a/">الفريق</a></li>
-									<li><a href="http://tamerchair.org/language/ar/%d8%a7%d9%84%d8%ac%d9%88%d8%a7%d8%a6%d8%b2/">الأخبار</a></li>
+									<li><a href="https://tamerchair.org/language/ar/%d9%85%d9%86-%d9%86%d8%ad%d9%86/">من نحن</a></li>
+									<li><a href="https://tamerchair.org/language/ar/%d9%81%d8%b1%d9%8a%d9%82-%d8%a7%d9%84%d9%83%d8%b1%d8%b3%d9%8a/">الفريق</a></li>
+									<li><a href="https://tamerchair.org/language/ar/homepage-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/#news">الأخبار</a></li>
 								</ul>
 							</div> <!-- /.footer-list -->
 							<div class="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information">

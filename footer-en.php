@@ -11,19 +11,19 @@
 							<div class="col-lg-3 col-lg-3 col-md-6 col-12 footer-list d-none d-lg-block">
 								<h5 class="footer-title">Links</h5>
 								<ul>
-									<li><a href="http://tamerchair.org/">Home</a></li>
-									<li><a href="http://tamerchair.org/awards/">Awards</a></li>
-									<li><a href="http://tamerchair.org/publications/">Publications</a></li>
-									<li><a href="http://tamerchair.org/achievements/">Achievements</a></li>
+									<li><a href="https://tamerchair.org/">Home</a></li>
+									<li><a href="https://tamerchair.org/awards/">Awards</a></li>
+									<li><a href="https://tamerchair.org/publications/">Publications</a></li>
+									<li><a href="https://tamerchair.org/achievements/">Achievements</a></li>
 									<!-- <li><a href="#">Contact </a></li> -->
 								</ul>
 							</div> <!-- /.footer-recent-post -->
 							<div class="col-lg-3 col-md-6 col-12 footer-list d-none d-lg-block">
 								<h5 class="footer-title">About us</h5>
 								<ul>
-									<li><a href="http://tamerchair.org/about-us">About us</a></li>
-									<li><a href="http://tamerchair.org/staff/">Team</a></li>
-									<li><a href="blog-v1.html">News</a></li>
+									<li><a href="https://tamerchair.org/about-us">About us</a></li>
+									<li><a href="https://tamerchair.org/staff/">Team</a></li>
+									<li><a href="https://tamerchair.org/#news">News</a></li>
 								</ul>
 							</div> <!-- /.footer-list -->
 							<div class="col-lg-3 col-lg-2 col-md-6 col-12 footer-information">
