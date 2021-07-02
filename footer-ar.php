@@ -4,8 +4,8 @@
 						<div class="row">
 							<div class="col-lg-3 col-md-6 col-12 footer-about-widget">
 								<a href="index.html" class="logo"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-1.png" alt=""></a>
-								<a href="mailto: info@tamerchair.org" class="email">info@tamerchair.org</a>
-								<a href="tel:012640000" class="phone en-number">012640000</a>
+								<a href="mailto: info@tamerchair.org" target="_blank" class="email">info@tamerchair.org</a>
+								<a href="tel:012640000" target="_blank" class="phone en-number">012640000</a>
 								
 							</div> <!-- /.about-widget -->
 							<div class="col-lg-3 col-lg-3 col-md-6 col-12 footer-list d-none d-lg-block">
@@ -32,7 +32,7 @@
 								<!-- <p>Follow us to get the latest news from Tamer Chair</p> -->
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="https://twitter.com/tamerchair"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="https://twitter.com/tamerchair" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 								</ul>

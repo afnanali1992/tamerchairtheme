@@ -125,7 +125,7 @@ endif
 							class="theme-btn line-button-one button-rose contact-button button-white-bg">Contact us</a>
 					</div>
 
-					<div class="logo lg-3" style="margin-bottom: -12px;"><a href="https://tamergroup.com/?lang=ar"><img
+					<div class="logo lg-3" style="margin-bottom: -12px;"><a href="https://tamergroup.com/?lang=ar" target="_blank"><img
 								src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-3.png" alt=""></a>
 					</div>
 
