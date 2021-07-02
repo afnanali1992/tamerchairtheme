@@ -43,7 +43,7 @@
 				
 				<div class="container">
 					<div class="bottom-footer-content">
-						<p>&copy; <?php echo date("Y");?> جميع الحقوق محفوظة للجمعية العلمية السعودية للصناعات الدوائية. <br>العلامات التجارية مملوكة أو مرخصة لجامعة الملك عبد العزيز.</p>
+						<p>&copy; <span class="en-number"> <?php echo date("Y");?> </span> جميع الحقوق محفوظة للجمعية العلمية السعودية للصناعات الدوائية. <br>العلامات التجارية مملوكة أو مرخصة لجامعة الملك عبد العزيز.</p>
 					</div> <!-- /.bottom-footer -->
 				</div>
 			</footer> <!-- /.theme-footer-one -->
