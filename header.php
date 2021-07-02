@@ -121,7 +121,7 @@ endif
 					</nav>
 
 					<div class="lg-3 contact-us">
-						<a href="<?php bloginfo('template_directory')?>/#contact"
+						<a href="<?php echo get_home_url(); ?>/#contact"
 							class="theme-btn line-button-one button-rose contact-button button-white-bg">Contact us</a>
 					</div>
 
