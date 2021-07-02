@@ -427,6 +427,9 @@ iframe {
 .mt-350 {
   margin-top: 350px;
 }
+.mt-400 {
+  margin-top: 400px;
+}
 
 .mb-5 {
   margin-bottom: 5px !important;
@@ -529,6 +532,9 @@ iframe {
 }
 .mb-350 {
   margin-bottom: 350px;
+}
+.mb-400 {
+  margin-bottom: 400px;
 }
 
 @media (max-width: 991px) {

@@ -1,4 +1,4 @@
-<div class="pricing-plan-classic pt-350 pb-30 md-pt-130 d-xl-none	 pos-r">
+<div class="pricing-plan-classic pt-350 pb-30 md-pt-130 d-xl-none pos-r">
     <div class="shape-wrapper">
         <svg class="img-shape shape-one">
             <path fill-rule="evenodd" fill="rgb(201, 192, 172)"
@@ -23,14 +23,16 @@
     </div> <!-- /.shape-wrapper -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 col-md-6 col-12 pt-120 sm-pt-60 sm-pb-0">
+            <div class="col-lg-5 col-md-6 col-12 pt-120 sm-pt-60 text-content sm-pb-0">
                 <div class="theme-title-one">
-                    <div class="upper-title mb-5">Professor</div>
-                    <h2 class="main-title">Prof. Osama A. Ali Ahmed</h2>
+                    <div class="upper-title mb-5">الأستاذ</div>
+                    <h2 class="main-title">أ. د. أسامة بن عبدالحكيم على أحمد
+                        <br><i></i></h2>
                 </div> <!-- /.theme-title-one -->
-                <p class="pt-20 sm-pb-0 pb-70">Consultant of pharmaceutical industries and professor of Pharmaceutics and industrial pharmacy, Faculty of Pharmacy, King Abdul-Aziz University.</p>
+                <p class="pt-20 sm-pb-0 pb-70">ستشار الصناعات الدوائية وأستاذ الصيدلانيات والصيدلة الصناعية بكلية الصيدلة
+                        بجامعة الملك عبدالعزيز.</p>
             </div> <!-- /.col- -->
-            <div class="col-lg-6 col-md-6 col-12 ml-auto">
+            <div class="col-lg-6 col-md-6 col-12 mr-auto">
                 <div class="tab-content pos-r" data-aos="fade-left" data-aos-duration="2000">
                     <div class="table-content">
                         <div id="monthly" class="tab-pane price-table in active">
@@ -61,41 +63,41 @@
     </div> <!-- /.container -->
 </div> <!-- /.pricing-plan-classic -->
 
-
-<div class="about-us-block-one pt-350 pb-30 mb-150 md-pt-130 pos-r  d-none d-xl-block">
-				<div class="shape-wrapper">
-					<img src="/wp-content/themes/Afnan/images/shape/21.svg" alt="" class="shape-one img-shape">
-					<img src="/wp-content/themes/Afnan/images/shape/23.svg" alt="" class="shape-two img-shape">
-					<img src="/wp-content/themes/Afnan/images/shape/24.svg" alt="" class="shape-three img-shape">
-					<img src="/wp-content/themes/Afnan/images/shape/17.svg" alt="" class="shape-four img-shape">
-					<img src="/wp-content/themes/Afnan/images/shape/9.svg" alt="" class="shape-five img-shape">
-					<img src="/wp-content/themes/Afnan/images/shape/25.svg" alt="" class="shape-six img-shape">
-				</div> <!-- /.shape-wrapper -->
-				<div class="inner-wrapper pos-r">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6">
-								<div class="theme-title-one">
-									<div class="upper-title mb-5">Professor</div>
-									<h2 class="main-title underline"><span>Chair’s Professor
-									</span> <span>Prof. Osama A. Ali Ahmed</span></h2>
-								</div> <!-- /.theme-title-one -->
-								<p class="pt-40 pb-45"> Consultant of pharmaceutical industries and professor of Pharmaceutics and industrial pharmacy, Faculty of Pharmacy, King Abdul-Aziz University.</p>
-								<!-- <p class="bold-text pb-60">Lorem ipsum dolor sit amet, hendrerit omittantur melu, est ut vidit animal iracundia luis.</p> -->
-								<!-- <a href="#" class="theme-btn solid-button-one" data-aos="fade-up">Learn More <i class="fa fa-angle-right" aria-hidden="true"></i></a> -->
-							</div>
-						</div>
-					</div> <!-- /.container -->
-					<div class="path-shape-holder">
-						<img src="/wp-content/themes/Afnan/images/shape/16.svg" alt="" data-aos="fade-left">
-						<div class="image-box" data-aos="fade-left" data-aos-delay="300">
-							<svg width="666" height="578">
-								<g clip-path="url(#path-shape-one)">
-									<image width="666" height="578" href="/wp-content/themes/Afnan/images/home/osama.png" class="image-shape">
-									</image>
-								</g>
-							</svg>
-						</div>
-					</div> <!-- /.path-shape-holder -->
-				</div> <!-- /.inner-wrapper -->
-			</div> <!-- /.about-us-block-one -->
+<div class="about-us-block-one pt-350 pb-30 mb-150 md-pt-130 d-none d-xl-block pos-r">
+    <div class="shape-wrapper">
+        <img src="/wp-content/themes/Afnan/images/shape/21.svg" alt="" class="shape-one img-shape">
+        <img src="/wp-content/themes/Afnan/images/shape/23.svg" alt="" class="shape-two img-shape">
+        <img src="/wp-content/themes/Afnan/images/shape/24.svg" alt="" class="shape-three img-shape">
+        <img src="/wp-content/themes/Afnan/images/shape/17.svg" alt="" class="shape-four img-shape">
+        <img src="/wp-content/themes/Afnan/images/shape/9.svg" alt="" class="shape-five img-shape">
+        <img src="/wp-content/themes/Afnan/images/shape/25.svg" alt="" class="shape-six img-shape">
+    </div> <!-- /.shape-wrapper -->
+    <div class="inner-wrapper pos-r">
+        <div class="container">
+            <div class="row" style="direction: ltr;">
+                <div class="col-lg-6" style="text-align: right;">
+                    <div class="theme-title-one">
+                        <div class="upper-title mb-5">الأستاذ</div>
+                        <h2 class="main-title underline"><span>أستاذ الكرسي
+                            </span> <br><span>أ. د. أسامة بن عبدالحكيم على أحمد</span></h2>
+                    </div> <!-- /.theme-title-one -->
+                    <p class="pt-40 pb-45"> مستشار الصناعات الدوائية وأستاذ الصيدلانيات والصيدلة الصناعية بكلية الصيدلة
+                        بجامعة الملك عبدالعزيز.</p>
+                    <!-- <p class="bold-text pb-60">Lorem ipsum dolor sit amet, hendrerit omittantur melu, est ut vidit animal iracundia luis.</p> -->
+                    <!-- <a href="#" class="theme-btn solid-button-one" data-aos="fade-up">Learn More <i class="fa fa-angle-right" aria-hidden="true"></i></a> -->
+                </div>
+            </div>
+        </div> <!-- /.container -->
+        <div class="path-shape-holder">
+            <img src="/wp-content/themes/Afnan/images/shape/16.svg" alt="" data-aos="fade-left">
+            <div class="image-box" data-aos="fade-left" data-aos-delay="300">
+                <svg width="666" height="578">
+                    <g clip-path="url(#path-shape-one)">
+                        <image width="666" height="578" href="/wp-content/themes/Afnan/images/home/osama.png" class="image-shape">
+                        </image>
+                    </g>
+                </svg>
+            </div>
+        </div> <!-- /.path-shape-holder -->
+    </div> <!-- /.inner-wrapper -->
+</div> <!-- /.about-us-block-one -->
