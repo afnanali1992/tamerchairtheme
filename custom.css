@@ -208,4 +208,17 @@
   .about-us-block-two .main-img-box .img-one img {
     height: auto !important;
   }
+  .testimonial-section-classic .inner-container {
+    margin-top: unset;
+  }
+}
+
+@media (min-width: 992px) {
+  .testimonial-section-classic {
+    padding: 174px 0 250px;
+  }
+}
+
+.testimonial-section-classic {
+  padding: 174px 0 250px;
 }
