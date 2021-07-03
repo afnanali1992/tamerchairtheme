@@ -172,6 +172,12 @@
   }
 }
 
+@media (min-width: 1200px) {
+  #mega-menu-holder {
+    margin-bottom: -25px;
+  }
+}
+
 .theme-footer-one {
   padding-bottom: 0px;
   text-align: center;
