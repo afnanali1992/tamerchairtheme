@@ -1,109 +1,325 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<div class="team-minimal our-team pb-70 md-pb-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="wrapper">
+                        <div class="img-box" style="background-image: url('http://tamerchair.org/wp-content/themes/Afnan/images/team/hani.png')">
+                            <img src="/wp-content/themes/Afnan/images/team/hani.png" alt="">
+                            <!-- <div class="hover-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div> /.hover-content -->
+                        </div>
+                        <div class="info-meta">
+                            <h6 class="name">Prof Hani Z. Asfour</h6>
+                            <span>Dean of the Faculty of Pharmacy, King Abdulaziz University.</span>
+                        </div>
+                    </div>
+                </div> <!-- /.single-team-member -->
+            </div> <!-- /.col- -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="wrapper">
+                        <div class="img-box" style="background-image: url('http://tamerchair.org/wp-content/themes/Afnan/images/team/fayyad.png')">
+                            <img src="/wp-content/themes/Afnan/images/team/fayyad.png" alt="">
+                            <!-- <div class="hover-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div> /.hover-content -->
+                        </div>
+                        <div class="info-meta">
+                            <h6 class="name">Dr. Fayyad bin Asaad Al-Dandashi</h6>
+                            <span>CEO of Healthcare at Tamer Group.</span>
+                        </div>
+                    </div>
+                </div> <!-- /.single-team-member -->
+            </div> <!-- /.col- -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="wrapper">
+                        <div class="img-box" style="background-image: url('http://tamerchair.org/wp-content/themes/Afnan/images/team/cory.png')">
+                            <img src="/wp-content/themes/Afnan/images/team/cory.png" alt="">
+                            <!-- <div class="hover-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div> /.hover-content -->
+                        </div>
+                        <div class="info-meta">
+                            <h6 class="name">Prof. Cory J. Berkland</h6>
+                            <span>Professor of Pharmaceutical Chemistry, University of Kansas in the United
+                                States.</span>
+                        </div>
+                    </div>
+                </div> <!-- /.single-team-member -->
+            </div> <!-- /.col- -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="wrapper">
+                        <div class="img-box" style="background-image: url('http://tamerchair.org/wp-content/themes/Afnan/images/team/hibah.png')">
+                            <img src="/wp-content/themes/Afnan/images/team/hibah.png" alt="">
+                            <!-- <div class="hover-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div> /.hover-content -->
+                        </div>
+                        <div class="info-meta">
+                            <h6 class="name">Prof Hibah M. Aldosari</h6>
+                            <span>Professor of Pharmaceutics, Faculty of Pharmacy, King Abdulaziz University.</span>
+                        </div>
+                    </div>
+                </div> <!-- /.single-team-member -->
+            </div> <!-- /.col- -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="wrapper">
+                        <div class="img-box" style="background-image: url('http://tamerchair.org/wp-content/themes/Afnan/images/team/samah.png')">
+                            <img src="/wp-content/themes/Afnan/images/team/samah.png" alt="">
+                            <!-- <div class="hover-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div> /.hover-content -->
+                        </div>
+                        <div class="info-meta">
+                            <h6 class="name">Dr. Samah O. Alshehri</h6>
+                            <span>Assistant Professor of Pharmacy Practice, Faculty of Pharmacy, King Abdulaziz
+                                University.</span>
+                        </div>
+                    </div>
+                </div> <!-- /.single-team-member -->
+            </div> <!-- /.col- -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="wrapper">
+                        <div class="img-box" style="background-image: url('http://tamerchair.org/wp-content/themes/Afnan/images/team/abdulmohsin.png')">
+                            <img src="/wp-content/themes/Afnan/images/team/abdulmohsin.png" alt="">
+                            <!-- <div class="hover-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div> /.hover-content -->
+                        </div>
+                        <div class="info-meta">
+                            <h6 class="name">Dr. Abdulmohsin J. Alamoudi</h6>
+                            <span>Assistant Professor of Pharmacology
+                                and Toxicology, Faculty of Pharmacy, King Abdulaziz University.</span>
+                        </div>
+                    </div>
+                </div> <!-- /.single-team-member -->
+            </div> <!-- /.col- -->
 
-<head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="format-detection" content="date=no" />
-	<meta name="format-detection" content="address=no" />
-	<meta name="format-detection" content="telephone=no" />
-	<meta name="x-apple-disable-message-reformatting" />
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,400i,700,700i|Barlow+Condensed:400,400i,700,700i"
-	 rel="stylesheet" />
-	<title>Mohamed Saeed Tamer Chair For pharmaceutical industries</title>
-	<style>
-		body {
-			min-height: 100vh;
-			font-family: 'Quicksand', 'Barlow Condensed', 'san serif';
-			font-size: 18px;
-		}
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="wrapper">
+                        <div class="img-box" style="background-image: url('http://tamerchair.org/wp-content/themes/Afnan/images/team/female.jpeg')">
+                            <img src="/wp-content/themes/Afnan/images/team/female.jpeg" alt="">
+                            <!-- <div class="hover-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div> /.hover-content -->
+                        </div>
+                        <div class="info-meta">
+                            <h6 class="name">Dr. Noha I. Ashy</h6>
+                            <span>Assistant Professor of Pharmacy Practice, Faculty of Pharmacy, King Abdulaziz
+                                University.</span>
+                        </div>
+                    </div>
+                </div> <!-- /.single-team-member -->
+            </div> <!-- /.col- -->
 
-		.content {
-			font-size: 22px;
-			/* text-align: center; */
-			font-weight: 500;
-			color: #111;
-			font-style: italic;
-			max-width: 80%;
-			/* margin: auto; */
-		}
-	</style>
-</head>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="wrapper">
+                        <div class="img-box" style="background-image: url('http://tamerchair.org/wp-content/themes/Afnan/images/team/def.png')">
+                            <img src="/wp-content/themes/Afnan/images/team/fawwaz.png" alt="">
+                            <!-- <div class="hover-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div> /.hover-content -->
+                        </div>
+                        <div class="info-meta">
+                            <h6 class="name">Dr.Fawwaz Alamri</h6>
+                            <span>Clinical pharmacist  at University Medical services  center 
+King Abaulaziz University.</span>
+                        </div>
+                    </div>
+                </div> <!-- /.single-team-member -->
+            </div> <!-- /.col- -->
 
-<body class="body" style="padding:0 !important; margin:0 !important; display:block !important; min-width:100% !important; width:100% !important; background:#ffffff; -webkit-text-size-adjust:none;">
-	<div class="fluid-img" style="font-size:0pt; line-height:0pt; padding: 35px; background-color: #111; text-align:center;">
-		<a href="#" target="_blank">
-			<img src="https://tamerchair.org/wp-content/themes/Afnan/images/logo/tamer-logo-1.png" border="0" width="70%" alt=""/>
-		</a>
-	</div>
-	
-	<div class="content" style="padding: 50px;">
-		<p>Dear esteemed customer,</p>
-		<p>Thank you for contacting Tamer Chair. We have received your email, and our team will be in touch with you soon.</p>
-		
-		<div class="signiture" style="margin-top: 70px;">
-			<p>Sincerely,</p>
-			<p>Mohamed Saeed Tamer Chair For Pharmaceutical Industries.</p>
-		</div>
-		
-	</div>
-</body>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="wrapper">
+                        <div class="img-box" style="background-image: url('http://tamerchair.org/wp-content/themes/Afnan/images/team/khaled.png')">
+                            <img src="/wp-content/themes/Afnan/images/team/khaled.png" alt="">
+                            <!-- <div class="hover-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div> /.hover-content -->
+                        </div>
+                        <div class="info-meta">
+                            <h6 class="name">Prof Khaled M. Hosny </h6>
+                            <span>Professor of Pharmaceutics, Faculty of Pharmacy, King Abdulaziz University.</span>
+                        </div>
+                    </div>
+                </div> <!-- /.single-team-member -->
+            </div> <!-- /.col- -->
 
-</html>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="wrapper">
+                        <div class="img-box" style="background-image: url('http://tamerchair.org/wp-content/themes/Afnan/images/team/shadab.png')">
+                            <img src="/wp-content/themes/Afnan/images/team/shadab.png" alt="">
+                            <!-- <div class="hover-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div> /.hover-content -->
+                        </div>
+                        <div class="info-meta">
+                            <h6 class="name">Dr. Shadab MD </h6>
+                            <span>Associate Professor of Pharmaceutics, Faculty of Pharmacy, King Abdulaziz
+                                University.</span>
+                        </div>
+                    </div>
+                </div> <!-- /.single-team-member -->
+            </div> <!-- /.col- -->
 
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="wrapper">
+                        <div class="img-box" style="background-image: url('http://tamerchair.org/wp-content/themes/Afnan/images/team/usama.png')">
+                            <img src="/wp-content/themes/Afnan/images/team/usama.png" alt="">
+                            <!-- <div class="hover-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div> /.hover-content -->
+                        </div>
+                        <div class="info-meta">
+                            <h6 class="name">Dr. Usama A. Fahmi</h6>
+                            <span>Associate Professor of Pharmaceutics, Faculty of Pharmacy, King Abdulaziz
+                                University.</span>
+                        </div>
+                    </div>
+                </div> <!-- /.single-team-member -->
+            </div> <!-- /.col- -->
 
-<!DOCTYPE html>
-<html dir="rtl" lang="ar" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="wrapper">
+                        <div class="img-box" style="background-image: url('http://tamerchair.org/wp-content/themes/Afnan/images/team/guiseppe.png')">
+                            <img src="/wp-content/themes/Afnan/images/team/guiseppe.png" alt="">
+                            <!-- <div class="hover-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div> /.hover-content -->
+                        </div>
+                        <div class="info-meta">
+                            <h6 class="name">Dr. Giuseppe Caruso</h6>
+                            <span>Assistant Professor of Pharmacology, University of Catania, Italy.</span>
+                        </div>
+                    </div>
+                </div> <!-- /.single-team-member -->
+            </div> <!-- /.col- -->
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="wrapper">
+                        <div class="img-box" style="background-image: url('http://tamerchair.org/wp-content/themes/Afnan/images/team/waleed.png')">
+                            <img src="/wp-content/themes/Afnan/images/team/waleed.png" alt="">
+                            <!-- <div class="hover-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div> /.hover-content -->
+                        </div>
+                        <div class="info-meta">
+                            <h6 class="name">Dr. Waleed Y. Rizg</h6>
+                            <span> Assistant Professor of Pharmaceutics, Faculty of Pharmacy, King Abdulaziz University.</span>
+                        </div>
+                    </div>
+                </div> <!-- /.single-team-member -->
+            </div> <!-- /.col- -->
 
-<head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="format-detection" content="date=no" />
-	<meta name="format-detection" content="address=no" />
-	<meta name="format-detection" content="telephone=no" />
-	<meta name="x-apple-disable-message-reformatting" />
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,400i,700,700i|Barlow+Condensed:400,400i,700,700i"
-	 rel="stylesheet" />
-	<title>Mohamed Saeed Tamer Chair For pharmaceutical industries</title>
-	<style>
-		body {  direction:rtl;
-                        text-align: right;
-			min-height: 100vh;
-			font-family: 'Quicksand', 'Barlow Condensed', 'san serif';
-			font-size: 18px;
-		}
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="wrapper">
+                        <div class="img-box" style="background-image: url('http://tamerchair.org/wp-content/themes/Afnan/images/team/abdurahman.png')">
+                            <img src="/wp-content/themes/Afnan/images/team/abdurahman.png" alt="">
+                            <!-- <div class="hover-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div> /.hover-content -->
+                        </div>
+                        <div class="info-meta">
+                            <h6 class="name">Dr. Abdurahman A. Halawani</h6>
+                            <span> Assistant Professor of Pharmaceutics, Faculty of Pharmacy, King Abdulaziz
+                                University.</span>
+                        </div>
+                    </div>
+                </div> <!-- /.single-team-member -->
+            </div> <!-- /.col- -->
 
-		.content {
-			font-size: 22px;
-			/* text-align: center; */
-			font-weight: 500;
-			color: #111;
-			font-style: italic;
-			max-width: 80%;
-			/* margin: auto; */
-		}
-	</style>
-</head>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="wrapper">
+                        <div class="img-box" style="background-image: url('http://tamerchair.org/wp-content/themes/Afnan/images/team/Mohammed.png')">
+                            <img src="/wp-content/themes/Afnan/images/team/Mohammed.png" alt="">
+                            <!-- <div class="hover-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div> /.hover-content -->
+                        </div>
+                        <div class="info-meta">
+                            <h6 class="name">Dr. Mohammed Z. Nasrullah</h6>
+                            <span> Assistant Professor of Pharmacology
+                                and Toxicology, Faculty of Pharmacy, King Abdulaziz University.</span>
+                        </div>
+                    </div>
+                </div> <!-- /.single-team-member -->
+            </div> <!-- /.col- -->
 
-<body class="body" style="padding:0 !important; margin:0 !important; display:block !important; min-width:100% !important; width:100% !important; background:#ffffff; -webkit-text-size-adjust:none;">
-	<div class="fluid-img" style="font-size:0pt; line-height:0pt; padding: 35px; background-color: #111; text-align:center;">
-		<a href="#" target="_blank">
-			<img src="https://tamerchair.org/wp-content/themes/Afnan/images/logo/tamer-logo-1.png" border="0" width="70%" alt=""/>
-		</a>
-	</div>
-	
-	<div class="content" style="padding: 50px;">
-		<p>،عزيزي العميل المحترم</p>
-		<p>شكرا لتواصلكم معانا. لقد تلقينا بريدك الإلكتروني ، وسيتواصل معك فريقنا قريبًا</p>
-		
-		<div class="signiture" style="margin-top: 70px;">
-			<p>خالص الشكر والتقدير</p>
-			<p>.كرسي محمد تمر للصناعات الدوائية</p>
-		</div>
-		
-	</div>
-</body>
-
-</html>
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+</div> <!-- /.team-minimal -->
