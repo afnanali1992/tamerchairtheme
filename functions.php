@@ -125,3 +125,79 @@ function load_stylesheets()
 // 	require_once get_template_directory().'/navwalker.php';
 // }
 // add_action( 'after_setup_theme', 'register_navwalker' );
+
+
+
+
+
+
+
+function wptp_create_post_type() {
+    $labels = array(
+            'name' => __( 'News' ),
+            'singular_name' => __( 'News' ),
+            'add_new' => __( 'New News' ),
+            'add_new_item' => __( 'Add New News' ),
+            'edit_item' => __( 'Edit News' ),
+            'new_item' => __( 'New News' ),
+            'view_item' => __( 'View News' ),
+            'search_items' => __( 'Search News' ),
+            'not_found' =>  __( 'No News Found' ),
+            'not_found_in_trash' => __( 'No News found in Trash' ),
+    );
+    $args = array(
+            'labels' => $labels,
+            'has_archive' => true,
+            'public' => true,
+            'hierarchical' => false,
+            'supports' => array(
+                    'title',
+                    'editor',
+                    'excerpt',
+                    'custom-fields',
+                    'thumbnail',
+                    'page-attributes'
+            ),
+            'taxonomies' => array( 'post_tag', 'category' ),
+    );
+    register_post_type('News', $args );
+}
+add_action( 'init', 'wptp_create_post_type' );
+
+
+
+add_shortcode( 'list-posts', 'rmcc_post_listing_parameters_shortcode' );
+function rmcc_post_listing_parameters_shortcode( $atts ) {
+    ob_start();
+    extract( shortcode_atts( array (
+    'type' => 'News',
+    'order' => 'date',
+    'orderby' => 'title',
+    'posts' => -1,
+
+    'category' => 'publications',
+    ), $atts ) );
+    $options = array(
+            'post_type' => $type,
+            'order' => $order,
+            'orderby' => $orderby,
+            'posts_per_page' => $posts,
+
+            'category_name' => $category,
+    );
+    $query = new WP_Query( $options );
+    if ( $query->have_posts() ) { ?>
+
+            <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+            <li id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+            </li>
+            <?php endwhile;
+            wp_reset_postdata(); ?>
+        </ul>
+    <?php $myvariable = ob_get_clean();
+    return $myvariable;
+    }   
+}
+
+
