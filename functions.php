@@ -196,6 +196,66 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
     }
 }
 
+
+
+// create shortcode with parameters so that the user can define what's queried - default is to list all blog posts
+add_shortcode( 'list-posts-publication', 'rmcc_post_listing_parameters_shortcode2' );
+function rmcc_post_listing_parameters_shortcode2( $atts ) {
+    ob_start();
+ 
+    // define attributes and their defaults
+    extract( shortcode_atts( array (
+        'type' => 'post',
+        'order' => 'date',
+        'orderby' => 'title',
+        'posts' => -1,
+        'category' => '',
+    ), $atts ) );
+ 
+    // define query parameters based on attributes
+    $options = array(
+        'post_type' => $type,
+        'order' => $order,
+        'orderby' => $orderby,
+        'posts_per_page' => $posts,
+        'category_name' => $category,
+    );
+    $query = new WP_Query( $options );
+    // run the loop based on the query
+    if ( $query->have_posts() ) { ?>
+     	<div class="team-standard our-team pb-200 md-pb-80">
+				<div class="container">
+					<div class="row">
+						
+            <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+            <div class="col-lg-4 col-md-6">
+							<div class="single-team-member">
+								<div class="wrapper pos-r">
+          
+            <div class="post">
+									<ul class="post-info">
+										<li><a href="#"><?php the_title(); ?> .</a></li>
+										<li><a href="#"><?php the_date('j F, Y'); ?></a></li>
+									</ul>
+									<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?>.</a></h4>
+									<p> <?php the_excerpt(); ?></p>
+									<a href="<?php the_permalink(); ?>" class="read-more inline-button-one">Continue Reading</a>
+								</div> <!-- /.post -->
+
+    </div>
+    </div>
+    </div>
+            <?php endwhile;
+            // wp_reset_postdata(); ?>
+    </div>
+    </div>
+    </div>
+   
+    <?php $myvariable = ob_get_clean();
+    return $myvariable;
+    }
+}
+
 function custom_excerpt_length( $length ) {
 	return 20;
 }

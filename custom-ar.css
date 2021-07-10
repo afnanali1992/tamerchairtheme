@@ -274,3 +274,8 @@ h6,
 .wpcf7 input[type="tel"] {
   direction: rtl;
 }
+
+
+.isotop-item{
+  text-align: right;
+}
