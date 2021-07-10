@@ -137,35 +137,33 @@ the_post_thumbnail( 'large' ); // Large resolution (default 1024px x 1024px max)
 the_post_thumbnail( 'full' ); // Original image resolution (unmodified)
 the_post_thumbnail( array( 100, 100 ) ); // Other resolutions (height, width)
 
-function cat_post($atts){
+add_shortcode( 'categorypost', 'cat_post' );
+
+function cat_post( $atts ) {
 
     // attributes for shortcode
-   if (isset($atts['cat'])) {$cats = $atts['cat'];} else {return;}
-   if (isset($atts['posts_per_page'])) {$posts_per_page = $atts['posts_per_page'];} else {$posts_per_page = -1;}
+   if ( isset( $atts['cat'] ) ) {$cats = $atts['cat'];} else {return;}
+   if ( isset( $atts['posts_per_page'] ) ) {$posts_per_page = $atts['posts_per_page'];} else {$posts_per_page = -1;}
 
    // get the category posts
-   $category = get_category_by_slug($cat);
-   if (!is_object($category)) {return;}
+   $category = get_category_by_slug( $cats );
+   if ( !is_object( $category ) ) {return;}
    $args = array(
         'cat' => $category->term_id,
-        'posts_per_page' => $posts_per_page,
-        'post_type' => 'post',
-        'order'  => 'DESC'
+        'posts_per_page' => $posts_per_page
    );
-   $posts = get_posts($args);
+   $posts = get_posts( $args );
 
    // create the list output
-   if (count($posts) > 0) {
-       foreach ($posts as $post) {
-           $link = get_permalink($post->ID);
+   if ( count( $posts ) > 0 ) {
+       foreach ( $posts as $post ) {
+           $link = get_permalink( $post->ID );
            $title = $post->post_title;
-           $image = get_the_post_thumbnail($post->ID, 'thumbnail');
+           $image = get_post_thumbnail( $post->ID,'thumbnail' );
            $output .= '<div id="postrow-'.$post->ID.'" class="postrow">';
-           $output .= '<a class="postlink" href="'.$link.'">'.$image;
-           $output .= '<h5 class="posttitle">'.$title.'</h5></a></div>';
+           $output .= '<a class="postlink" href="'.$link.'">' . $image;
+           $output .= '<h5 class="posttitle">' . $title . '</h5></a></div>';
        }
+   }
    return $output;
 }
-}
-
-add_shortcode( 'knowledge_sharing', 'cat_post' );
