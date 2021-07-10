@@ -174,8 +174,8 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
 										<li><a href="#"><?php the_title(); ?> .</a></li>
 										<li><a href="#"><?php the_date('j F, Y'); ?></a></li>
 									</ul>
-									<h4><a href="blog-details-v2.html">Challange yourself & win the future.</a></h4>
-									<p>This response is important for our ability to learn from mistakes words…</p>
+									<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?>.</a></h4>
+									<p> <?php the_excerpt(); ?></p>
 									<a href="<?php the_permalink(); ?>" class="read-more inline-button-one">Continue Reading</a>
 								</div> <!-- /.post -->
 
