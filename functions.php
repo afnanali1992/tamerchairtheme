@@ -175,7 +175,7 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
             <div class="img-holder"><img src="<?php the_post_thumbnail_url(); ?>" alt=""></div>
             <div class="post">
 									<ul class="post-info">
-										<li><a href="#"><?php the_title(); ?> .</a></li>
+										<li><a href="#"><?php $category ?> .</a></li>
 										<li><a href="#"><?php the_date('j F, Y'); ?></a></li>
 									</ul>
 									<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?>.</a></h4>
@@ -232,9 +232,9 @@ function rmcc_post_listing_parameters_shortcode2( $atts ) {
 							<div class="single-team-member">
 								<div class="wrapper pos-r">
           
-            <div class="post">
+            <div class="info-meta post">
 									<ul class="post-info">
-										<li><a href="#"><?php the_title(); ?> .</a></li>
+										<li><a href="#"><?php $category ?> .</a></li>
 										<li><a href="#"><?php the_date('j F, Y'); ?></a></li>
 									</ul>
 									<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?>.</a></h4>
