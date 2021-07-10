@@ -164,14 +164,26 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
     $query = new WP_Query( $options );
     // run the loop based on the query
     if ( $query->have_posts() ) { ?>
-        <ul class="clothes-listing">
+     
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-            <li id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-            </li>
+            <div class="isotop-item economy marketing">
+			<div class="blog-post-block-two mb-75 md-mb-50">
+            <div class="img-holder"><img src="<?php the_post_thumbnail_url(); ?>" alt=""></div>
+            <div class="post">
+									<ul class="post-info">
+										<li><a href="#"><?php the_title(); ?> .</a></li>
+										<li><a href="#"><?php the_date('j F, Y'); ?></a></li>
+									</ul>
+									<h4><a href="blog-details-v2.html">Challange yourself & win the future.</a></h4>
+									<p>This response is important for our ability to learn from mistakes words…</p>
+									<a href="<?php the_permalink(); ?>" class="read-more inline-button-one">Continue Reading</a>
+								</div> <!-- /.post -->
+
+    </div>
+    </div>
             <?php endwhile;
-            wp_reset_postdata(); ?>
-        </ul>
+            // wp_reset_postdata(); ?>
+   
     <?php $myvariable = ob_get_clean();
     return $myvariable;
     }
