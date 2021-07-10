@@ -141,7 +141,6 @@ function cat_post($atts){
    $args = array(
         'cat' => $category->term_id,
         'posts_per_page' => $posts_per_page,
-        'post_type' => 'knowledgeSharingDocs',
         'order'  => 'DESC'
    );
    $posts = get_posts($args);
