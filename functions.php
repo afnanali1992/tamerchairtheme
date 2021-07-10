@@ -180,7 +180,9 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
 									</ul>
 									<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?>.</a></h4>
 									<p> <?php the_excerpt(); ?></p>
-									<a href="<?php the_permalink(); ?>" class="read-more inline-button-one"> <?php  echo (pll_current_language() == 'en') ?  "Continue Reading" :  "المزيد" ;?> </a>
+									<a href="<?php the_permalink(); ?>" class="read-more inline-button-one" style="
+    font-size: 19px;
+"> <?php  echo (pll_current_language() == 'en') ?  "Continue Reading" :  "شاهد المزيد" ;?> </a>
 								</div> <!-- /.post -->
 
     </div>
