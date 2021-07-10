@@ -175,12 +175,12 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
             <div class="img-holder"><img src="<?php the_post_thumbnail_url(); ?>" alt=""></div>
             <div class="post">
 									<ul class="post-info">
-										<li><a href="#"><?php echo $category; ?> .</a></li>
+										<li><a href="#"><?php echo $category; ?>.</a></li>
 										<li><a href="#"><?php the_date('j F, Y'); ?></a></li>
 									</ul>
 									<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?>.</a></h4>
 									<p> <?php the_excerpt(); ?></p>
-									<a href="<?php the_permalink(); ?>" class="read-more inline-button-one">Continue Reading</a>
+									<a href="<?php the_permalink(); ?>" class="read-more inline-button-one"> <?php  (pll_current_language() == 'en') ? echo "Continue Reading" : echo "المزيد" ;?> </a>
 								</div> <!-- /.post -->
 
     </div>
