@@ -168,7 +168,7 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
 		<div class="container">
         
 					<div class="row masnory-blog-wrapper">
-						<div class="grid-sizer"></div>
+						
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
             <div class="isotop-item col-lg-4 col-md-6">
 			<div class="single-team-member blog-post-block-two mb-75 md-mb-50">
