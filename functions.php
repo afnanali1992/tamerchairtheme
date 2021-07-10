@@ -162,4 +162,5 @@ function cat_post($atts){
        }
    return $output;
 }
+}
 
