@@ -164,9 +164,13 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
     $query = new WP_Query( $options );
     // run the loop based on the query
     if ( $query->have_posts() ) { ?>
-     
+     	<div class="our-blog version-five pt-110 pb-150 md-pb-120">
+		<div class="container">
+        
+					<div class="masnory-blog-wrapper">
+						<div class="grid-sizer"></div>
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-            <div class="isotop-item economy marketing">
+            <div class="isotop-item">
 			<div class="blog-post-block-two mb-75 md-mb-50">
             <div class="img-holder"><img src="<?php the_post_thumbnail_url(); ?>" alt=""></div>
             <div class="post">
@@ -183,6 +187,9 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
     </div>
             <?php endwhile;
             // wp_reset_postdata(); ?>
+    </div>
+    </div>
+    </div>
    
     <?php $myvariable = ob_get_clean();
     return $myvariable;
