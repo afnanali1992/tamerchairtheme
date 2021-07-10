@@ -131,73 +131,35 @@ function load_stylesheets()
 
 
 
+add_shortcode( 'knowledge_sharing', 'cat_post' );
 
-function wptp_create_post_type() {
-    $labels = array(
-            'name' => __( 'News' ),
-            'singular_name' => __( 'News' ),
-            'add_new' => __( 'New News' ),
-            'add_new_item' => __( 'Add New News' ),
-            'edit_item' => __( 'Edit News' ),
-            'new_item' => __( 'New News' ),
-            'view_item' => __( 'View News' ),
-            'search_items' => __( 'Search News' ),
-            'not_found' =>  __( 'No News Found' ),
-            'not_found_in_trash' => __( 'No News found in Trash' ),
-    );
-    $args = array(
-            'labels' => $labels,
-            'has_archive' => true,
-            'public' => true,
-            'hierarchical' => false,
-            'supports' => array(
-                    'title',
-                    'editor',
-                    'excerpt',
-                    'custom-fields',
-                    'thumbnail',
-                    'page-attributes'
-            ),
-            'taxonomies' => array( 'post_tag', 'category' ),
-    );
-    register_post_type('News', $args );
+function cat_post($atts){
+
+    // attributes for shortcode
+   if (isset($atts['cat'])) {$cats = $atts['cat'];} else {return;}
+   if (isset($atts['posts_per_page'])) {$posts_per_page = $atts['posts_per_page'];} else {$posts_per_page = -1;}
+
+   // get the category posts
+   $category = get_category_by_slug($cat);
+   if (!is_object($category)) {return;}
+   $args = array(
+        'cat' => $category->term_id,
+        'posts_per_page' => $posts_per_page,
+        'post_type' => 'knowledgeSharingDocs',
+        'order'  => 'DESC'
+   );
+   $posts = get_posts($args);
+
+   // create the list output
+   if (count($posts) > 0) {
+       foreach ($posts as $post) {
+           $link = get_permalink($post->ID);
+           $title = $post->post_title;
+           $image = get_the_post_thumbnail($post->ID, 'thumbnail');
+           $output .= '<div id="postrow-'.$post->ID.'" class="postrow">';
+           $output .= '<a class="postlink" href="'.$link.'">'.$image;
+           $output .= '<h5 class="posttitle">'.$title.'</h5></a></div>';
+       }
+   return $output;
 }
-add_action( 'init', 'wptp_create_post_type' );
-
-
-
-add_shortcode( 'list-posts', 'rmcc_post_listing_parameters_shortcode' );
-function rmcc_post_listing_parameters_shortcode( $atts ) {
-    ob_start();
-    extract( shortcode_atts( array (
-    'type' => 'News',
-    'order' => 'date',
-    'orderby' => 'title',
-    'posts' => -1,
-
-    'category' => 'publications',
-    ), $atts ) );
-    $options = array(
-            'post_type' => $type,
-            'order' => $order,
-            'orderby' => $orderby,
-            'posts_per_page' => $posts,
-
-            'category_name' => $category,
-    );
-    $query = new WP_Query( $options );
-    if ( $query->have_posts() ) { ?>
-
-            <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-            <li id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-            </li>
-            <?php endwhile;
-            wp_reset_postdata(); ?>
-        </ul>
-    <?php $myvariable = ob_get_clean();
-    return $myvariable;
-    }   
-}
-
 
