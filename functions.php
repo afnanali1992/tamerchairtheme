@@ -129,10 +129,6 @@ function load_stylesheets()
 
 
 
-
-
-add_shortcode( 'knowledge_sharing', 'cat_post' );
-
 function cat_post($atts){
 
     // attributes for shortcode
@@ -164,3 +160,4 @@ function cat_post($atts){
 }
 }
 
+add_shortcode( 'knowledge_sharing', 'cat_post' );
