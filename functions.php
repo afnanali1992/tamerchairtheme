@@ -164,15 +164,15 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
     $query = new WP_Query( $options );
     // run the loop based on the query
     if ( $query->have_posts() ) { ?>
-     	<div class="our-blog version-five pt-110 pb-150 md-pb-120">
+     	<div class="team-standard our-team pb-200 md-pb-80">
 		<div class="container">
-        
-					<div class="row masnory-blog-wrapper">
+        <div class="row">
 						
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-            <div class="isotop-item col-lg-4 col-md-6">
-			<div class="single-team-member blog-post-block-two mb-75 md-mb-50">
-            <div class="img-holder"><img src="<?php the_post_thumbnail_url(); ?>" alt=""></div>
+            <div class="col-lg-4 col-md-6">
+			<div class="single-team-member">
+            <div class="wrapper pos-r">
+            <div class="img-box"><img src="<?php the_post_thumbnail_url(); ?>" alt=""></div>
             <div class="post">
 									<ul class="post-info">
 										<li><a href="#"><?php the_title(); ?> .</a></li>
@@ -182,7 +182,7 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
 									<p> <?php the_excerpt(); ?></p>
 									<a href="<?php the_permalink(); ?>" class="read-more inline-button-one">Continue Reading</a>
 								</div> <!-- /.post -->
-
+    </div>
     </div>
     </div>
             <?php endwhile;
