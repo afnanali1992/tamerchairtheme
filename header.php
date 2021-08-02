@@ -57,7 +57,7 @@ endif
 			============================================== 
 			-->
 		<header>
-			<div class="theme-main-menu theme-menu-two main-p-color">
+			<div class="theme-main-menu theme-menu-two main-p-color sticky-menu fixed"">
 
 				<div class="d-flex  logo-header row align-items-center justify-content-between">
 					<!-- LOGO -->
