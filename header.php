@@ -62,6 +62,7 @@ endif
 				<div class="d-flex  logo-header row align-items-center justify-content-between">
 					<!-- LOGO -->
 					<div class="logo lg-3" style="margin-top: -18px;"><a href="https://tamerchair.org/language/ar/homepage-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8%d9%8a%d8%a9/"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-1.png" alt=""></a></div>
+					<div class="logo lg-4" style="margin-top: -18px;"> <?php pll_current_language() == 'en'?> <h6> Mohammed Saeed Tamer Chair </h6> <?php:?>  <h6>كرسي محمد سعيد تمر  </h6> </div>
 
 
 					<!-- <div class="logo lg-3"><a href="index.html"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-2.png" alt=""></a></div> -->
