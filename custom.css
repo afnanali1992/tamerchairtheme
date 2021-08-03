@@ -228,3 +228,6 @@
 .testimonial-section-classic {
   padding: 174px 0 250px;
 }
+.feature-block-one .icon-three{
+  color:  var(--p-rose) !important ; 
+}
