@@ -62,7 +62,7 @@ endif
 				<div class="d-flex  logo-header row align-items-center justify-content-between">
 					<!-- LOGO -->
 					<div class="logo lg-3" style="margin-top: -18px;"><a href="https://tamerchair.org/language/ar/homepage-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8%d9%8a%d8%a9/"><img src="<?php bloginfo('template_directory')?>/images/logo/tamer-logo-1.png" alt=""></a></div>
-					<div class="logo lg-4 title-chair-header" style="text-align: center; font-size: 16px; font-weight: bold;"> <?php if( pll_current_language() == 'en') { ?>
+					<div class="logo lg-4 title-chair-header d-none d-sm-block" style="text-align: center; font-size: 16px; font-weight: bold;"> <?php if( pll_current_language() == 'en') { ?>
         <h6 style="font-size: 16px; font-weight: bold;"> Mohammed Saeed Tamer Chair <br> For Pharmaceutical Industries </h6>
 <?php } else { ?>
 	<h6 style="font-weight: bold;">  كرسي محمد سعيد تمر<br>  للصناعات الدوائية </h6>
