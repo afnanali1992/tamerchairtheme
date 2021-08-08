@@ -291,3 +291,7 @@ body .inline-button-one,
     margin-right: -59px !important;
   }
 }
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 18px !important;
+}
