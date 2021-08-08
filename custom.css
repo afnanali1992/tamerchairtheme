@@ -231,3 +231,7 @@
 .feature-block-one .icon-three{
   color:  var(--p-rose) !important ; 
 }
+
+.navbar-nav .nav-item .nav-link {
+  margin: 0 12px;
+}

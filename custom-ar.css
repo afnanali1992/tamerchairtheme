@@ -284,3 +284,10 @@ body .inline-button-one,
 #menu-item-4975 {
   margin-top: 8px !important;
 }
+
+
+@media (min-width: 1200px) {
+  .title-chair-header{
+    margin-right: -45px;
+  }
+}
