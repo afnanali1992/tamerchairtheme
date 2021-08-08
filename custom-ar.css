@@ -288,6 +288,6 @@ body .inline-button-one,
 
 @media (min-width: 1200px) {
   .title-chair-header{
-    margin-right: -45px;
+    margin-right: -59px !important;
   }
 }
