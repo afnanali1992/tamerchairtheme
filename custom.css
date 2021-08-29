@@ -246,7 +246,7 @@
 a:hover, a:focus{
  color: #e0cc82;
 }
-ol, ul {
+.blog-details ol, .blog-details ul {
   list-style-type: unset;
 }
 
