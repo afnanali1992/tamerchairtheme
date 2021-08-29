@@ -15,9 +15,9 @@ $firstCategory = $category[0]->cat_name; echo $firstCategory;?></p>
 </div> <!-- /.inner-banner -->
 <div class="our-blog blog-details pt-150 pb-200 md-pt-120 md-pb-120">
 	<div class="container">
-		<div class="row">
+ 
 			<?php the_content();?>
-		</div>
+ 
 	</div>
 </div>
 <?php get_footer();?>
