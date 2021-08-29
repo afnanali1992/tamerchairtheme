@@ -236,10 +236,10 @@ function publication_fun( $atts ) {
                     <div class="flip-box-front">
                         <div class="clearfix">
                             <div class="author-info" style="padding-left: unset !important;">
-                                <div class="date"><?php $key_name = get_post_custom_values($key = 'date_post'); echo $key_name[0]; ?></div>
+                                <div class="date"><?php $key_name = get_post_custom_values($key = 'date_post'); echo date($date_format, $fetch);$key_name[0]; ?></div>
                             </div>
                         </div>
-                        <a href="<?php $key_name = get_post_custom_values($key = 'url-post'); echo date("F j, Y", strtotime($key_name[0]));; ?>" class="title"><?php the_title(); ?></a>
+                        <a href="<?php $key_name = get_post_custom_values($key = 'url-post'); echo $key_name[0]; ?>" class="title"><?php the_title(); ?></a>
                         <p><?php the_excerpt(); ?></p>
 
 
