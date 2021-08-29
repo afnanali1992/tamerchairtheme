@@ -178,7 +178,7 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
                         <ul class="post-info">
                             <li><a href="#"><?php the_time('F j, Y'); ?></a></li>
                         </ul>
-                        <h3><a href="<?php the_permalink();?>"><?php the_title(); ?>.</a></h3>
+                        <h5><a class="title" href="<?php the_permalink();?>"><?php the_title(); ?>.</a></h5>
                         <p> <?php the_excerpt(); ?></p>
                         <!-- <a href="<?php the_permalink(); ?>" class="read-more inline-button-one" style="
     font-size: 19px;
