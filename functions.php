@@ -237,7 +237,7 @@ function publication_fun( $atts ) {
                                 <div class="date"><?php the_time('F j, Y'); ?></div>
                             </div>
                         </div>
-                        <a href="<?php echo get_post_meta($post->ID, 'url', true); ?>" class="title"><?php the_title(); ?></a>
+                        <a href="<?php echo get_post_meta($post->ID, 'url-post', true); ?>" class="title"><?php the_title(); ?></a>
                         <p><?php the_excerpt(); ?></p>
                       
                     </div>
