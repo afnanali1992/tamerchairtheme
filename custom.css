@@ -249,3 +249,10 @@ a:hover, a:focus{
 ol, ul {
   list-style-type: unset;
 }
+
+.blog-details .blog-hero-banner .blog-title{
+ color: #e0cc82; 
+}
+.blog-details .post-data strong{
+  padding-right: unset;
+}

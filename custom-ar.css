@@ -295,3 +295,7 @@ body .inline-button-one,
 .navbar-nav .nav-item .nav-link {
   font-size: 18px !important;
 }
+
+.blog-details .blog-hero-banner .blog-title{
+  text-align: right;
+}
