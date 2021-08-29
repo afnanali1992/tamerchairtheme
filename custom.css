@@ -246,3 +246,6 @@
 a:hover, a:focus{
  color: #e0cc82;
 }
+ol, ul {
+  list-style-type: unset;
+}
