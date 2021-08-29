@@ -257,6 +257,6 @@ function publication_fun( $atts ) {
  
 
 function custom_excerpt_length( $length ) {
-	return 20;
+	return 10;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
