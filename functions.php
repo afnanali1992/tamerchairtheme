@@ -172,6 +172,7 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
             <div class="isotop-item col-lg-6 col-md-6">
                 <div class="single-team-member blog-post-block-two mb-75 md-mb-50">
+                    <div class="flip-box-front">
                     <div class="img-holder"><img src="<?php the_post_thumbnail_url(); ?>" alt=""></div>
                     <div class="post">
                         <ul class="post-info">
@@ -187,6 +188,7 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
 
                 </div>
             </div>
+    </div>
             <?php endwhile;
             // wp_reset_postdata(); ?>
         </div>
