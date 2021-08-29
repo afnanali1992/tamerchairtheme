@@ -164,45 +164,44 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
     $query = new WP_Query( $options );
     // run the loop based on the query
     if ( $query->have_posts() ) { ?>
-     	<div class="our-blog version-five pt-110 pb-150 md-pb-120">
-		<div class="container">
-        
-					<div class="row masnory-blog-wrapper">
-						
+<div class="our-blog version-five pt-110 pb-150 md-pb-120">
+    <div class="container">
+
+        <div class="row masnory-blog-wrapper">
+
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
             <div class="isotop-item col-lg-4 col-md-6">
-			<div class="single-team-member blog-post-block-two mb-75 md-mb-50">
-            <div class="img-holder"><img src="<?php the_post_thumbnail_url(); ?>" alt=""></div>
-            <div class="post">
-									<ul class="post-info">
-										<li><a href="#"><?php echo $category; ?>.</a></li>
-										<li><a href="#"><?php the_time('F j, Y'); ?></a></li>
-									</ul>
-									<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?>.</a></h4>
-									<p> <?php the_excerpt(); ?></p>
-									<a href="<?php the_permalink(); ?>" class="read-more inline-button-one" style="
+                <div class="single-team-member blog-post-block-two mb-75 md-mb-50">
+                    <div class="img-holder"><img src="<?php the_post_thumbnail_url(); ?>" alt=""></div>
+                    <div class="post">
+                        <ul class="post-info">
+                            <li><a href="#"><?php echo $category; ?>.</a></li>
+                            <li><a href="#"><?php the_time('F j, Y'); ?></a></li>
+                        </ul>
+                        <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?>.</a></h4>
+                        <p> <?php the_excerpt(); ?></p>
+                        <a href="<?php the_permalink(); ?>" class="read-more inline-button-one" style="
     font-size: 19px;
 "> <?php  echo (pll_current_language() == 'en') ?  "Continue Reading" :  "شاهد المزيد" ;?> </a>
-								</div> <!-- /.post -->
+                    </div> <!-- /.post -->
 
-    </div>
-    </div>
+                </div>
+            </div>
             <?php endwhile;
             // wp_reset_postdata(); ?>
+        </div>
     </div>
-    </div>
-    </div>
-   
-    <?php $myvariable = ob_get_clean();
+</div>
+
+<?php $myvariable = ob_get_clean();
     return $myvariable;
     }
 }
 
 
-
 // create shortcode with parameters so that the user can define what's queried - default is to list all blog posts
-add_shortcode( 'list-posts-publication', 'rmcc_post_listing_parameters_shortcode2' );
-function rmcc_post_listing_parameters_shortcode2( $atts ) {
+add_shortcode( 'list-publication', 'publication_fun' );
+function publication_fun( $atts ) {
     ob_start();
  
     // define attributes and their defaults
@@ -225,38 +224,37 @@ function rmcc_post_listing_parameters_shortcode2( $atts ) {
     $query = new WP_Query( $options );
     // run the loop based on the query
     if ( $query->have_posts() ) { ?>
-     	<div class="team-standard our-team pb-200 md-pb-80">
-				<div class="container">
-					<div class="row">
-						
+<div class="element-section mb-150">
+    <div class="container">
+        <div class="row">
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-            <div class="col-lg-4 col-md-6">
-							<div class="single-team-member">
-								<div class="wrapper pos-r">
-          
-            <div class="info-meta post">
-									<ul class="post-info">
-										<li><a href="#"><?php $category ?> .</a></li>
-										<li><a href="#"><?php the_date('j F, Y'); ?></a></li>
-									</ul>
-									<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?>.</a></h4>
-									<p> <?php the_excerpt(); ?></p>
-									<a href="<?php the_permalink(); ?>" class="read-more inline-button-one">Continue Reading</a>
-								</div> <!-- /.post -->
 
-    </div>
-    </div>
-    </div>
+            <div class="col-lg-4">
+                <div class="blog-post-block-one mt-40">
+                    <div class="flip-box-front">
+                        <div class="clearfix">
+                            <div class="author-info" style="padding-left: unset !important;">
+                                <div class="date"><?php the_time('F j, Y'); ?></div>
+                            </div>
+                        </div>
+                        <a href="#" class="title"><?php the_title(); ?></a>
+                        <p><?php the_excerpt(); ?></p>
+                      
+                    </div>
+                </div>
+            </div>
             <?php endwhile;
             // wp_reset_postdata(); ?>
+        </div>
     </div>
-    </div>
-    </div>
-   
-    <?php $myvariable = ob_get_clean();
+</div>
+
+<?php $myvariable = ob_get_clean();
     return $myvariable;
     }
 }
+
+ 
 
 function custom_excerpt_length( $length ) {
 	return 20;
