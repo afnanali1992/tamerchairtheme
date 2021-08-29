@@ -172,14 +172,14 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
             <div class="isotop-item col-lg-4 col-md-6">
                 <div class="single-team-member blog-post-block-one mb-75 md-mb-50">
-                    <div class="flip-box-front">
+                    <div class="flip-box-front" style="padding: 50px 15px 50px 15px;">
                     <div class="img-holder"><img src="<?php the_post_thumbnail_url(); ?>" alt=""></div>
                     <div class="post">
                         <ul class="post-info">
                             <li><a href="#"><?php echo $category; ?>.</a></li>
                             <li><a href="#"><?php the_time('F j, Y'); ?></a></li>
                         </ul>
-                        <h4><a href="#"><?php the_title(); ?>.</a></h4>
+                        <h4><a href="<?php the_permalink();?>"><?php the_title(); ?>.</a></h4>
                         <p> <?php the_excerpt(); ?></p>
                         <!-- <a href="<?php the_permalink(); ?>" class="read-more inline-button-one" style="
     font-size: 19px;
