@@ -239,7 +239,8 @@ function publication_fun( $atts ) {
                         </div>
                         <a href="<?php echo get_post_meta(get_the_ID(), "url-post", true); ?>" class="title"><?php the_title(); ?></a>
                         <p><?php the_excerpt(); ?></p>
-                        <p><?php echo get_field('url-post',get_the_ID()); ?></p>
+                        <p><?php $key_name = get_post_custom_values($key = 'url-post');
+echo $key_name[0]; ?></p>
                       
                     </div>
                 </div>
