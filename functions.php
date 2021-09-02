@@ -173,7 +173,7 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
             <div class="isotop-item col-lg-4 col-md-6">
                 <div class="single-team-member blog-post-block-one mb-75 md-mb-50">
                     <div class="flip-box-front" style="padding: 50px 15px 50px 15px; height: 499px;">
-                    <div class="img-holder"><img src="<?php the_post_thumbnail_url(); ?>" alt="" style="height: 100%; margin: auto;"></div>
+                    <div class="img-holder" style="height:185.63px"><img src="<?php the_post_thumbnail_url(); ?>" alt="" style="height: 100%; margin: auto; width:100%"></div>
                     <div class="post">
                         <ul class="post-info">
                             <li><a href="#"><?php the_time('F j, Y'); ?></a></li>
