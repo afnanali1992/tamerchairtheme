@@ -232,7 +232,7 @@ function publication_fun( $atts ) {
 
             <div class="col-lg-4">
                 <div class="blog-post-block-one mt-40">
-                    <div class="flip-box-front">
+                    <div class="flip-box-front" style="height: 356px;">
                         <div class="clearfix">
                             <div class="author-info" style="padding-left: unset !important;">
                                 <div class="date"><?php $key_name = get_post_custom_values($key = 'date_post'); echo date('F j, Y', strtotime($key_name[0]));?></div>
