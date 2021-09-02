@@ -172,8 +172,8 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
             <div class="isotop-item col-lg-4 col-md-6">
                 <div class="single-team-member blog-post-block-one mb-75 md-mb-50">
-                    <div class="flip-box-front" style="padding: 50px 15px 50px 15px;">
-                    <div class="img-holder"><img src="<?php the_post_thumbnail_url(); ?>" alt=""></div>
+                    <div class="flip-box-front" style="padding: 50px 15px 50px 15px; height: 499px;">
+                    <div class="img-holder"><img src="<?php the_post_thumbnail_url(); ?>" alt="" style="height: 100%; margin: auto;"></div>
                     <div class="post">
                         <ul class="post-info">
                             <li><a href="#"><?php the_time('F j, Y'); ?></a></li>
