@@ -276,8 +276,7 @@ body .inline-button-one,
   direction: rtl;
 }
 
-
-.isotop-item{
+.isotop-item {
   text-align: right;
 }
 
@@ -285,9 +284,8 @@ body .inline-button-one,
   margin-top: 8px !important;
 }
 
-
 @media (min-width: 1200px) {
-  .title-chair-header{
+  .title-chair-header {
     margin-right: -59px !important;
   }
 }
@@ -296,6 +294,13 @@ body .inline-button-one,
   font-size: 18px !important;
 }
 
-.blog-details .blog-hero-banner .blog-title{
+.blog-details .blog-hero-banner .blog-title {
   text-align: right;
+}
+.blog-post-block-one .flip-box-front {
+  text-align: right;
+}
+
+.blog-post-block-one .flip-box-front .clearfix {
+  float: right;
 }
